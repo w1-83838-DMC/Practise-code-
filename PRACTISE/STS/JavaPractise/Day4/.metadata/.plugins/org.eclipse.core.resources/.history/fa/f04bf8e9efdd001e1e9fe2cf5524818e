@@ -1,0 +1,30 @@
+/* == operator check reference equality  if two reference points to same memory location it wil return true while in case of (==)    */
+class student
+{
+	int rollno; 
+	int marks;
+	String name;
+	
+	student()  // parameterless constructor 
+	{
+		this.rollno=83838;
+		this.marks=100;
+		this.name="Ajay";	
+	}
+	void display()
+	{
+		System.out.println("Roll no "+this.rollno + " Marks is "+this.marks + " The Name of employee is "+this.name);
+	}
+	
+}
+
+public class Day4_3 {
+	public static void main(String[] args) 
+	{
+		student s1= new student();
+		s1.display();
+		
+		
+	}
+
+}

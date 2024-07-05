@@ -1,0 +1,19 @@
+
+public class Demo {
+	
+	int n1;
+	Demo()
+	{
+	}
+	Demo(int n1)
+	{
+		this.n1=n1;	
+	}
+	public String toString()
+	{
+		return "Demo[n1= "+ n1 +"]";
+	}
+	public static void main(String[] args) {
+		
+	}
+}

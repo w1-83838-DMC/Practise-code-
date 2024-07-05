@@ -1,0 +1,12 @@
+package com.sunbeam;
+
+public class PriorityQueue {
+	private Heap h;
+	private int SIZE;
+	public PriorityQueue(int size)
+	{
+		SIZE=size;
+		h=new Heap(SIZE);
+	}
+
+}

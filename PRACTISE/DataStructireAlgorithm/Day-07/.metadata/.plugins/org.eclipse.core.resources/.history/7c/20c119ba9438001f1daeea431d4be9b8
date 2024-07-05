@@ -1,0 +1,25 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class BStreeMain {
+	public static void main(String[] args) {
+		BStree bstree = new BStree();
+		Scanner sc= new Scanner(System.in);
+		int choice=0;
+		do {
+			System.out.println("0. Exit 1.Add 2. Display");
+			switch (choice) {
+			case 1: 
+				bstree.addNode(34);
+				bstree.addNode(56);
+				bstree.addNode(100);
+				break;
+				
+			}
+			
+		}while(choice!=0);
+	}
+}
+	
+

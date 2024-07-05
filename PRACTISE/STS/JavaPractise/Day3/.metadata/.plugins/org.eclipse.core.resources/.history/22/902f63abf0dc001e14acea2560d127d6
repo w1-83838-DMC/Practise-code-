@@ -1,0 +1,23 @@
+
+
+class Employee
+{
+	int empid;  // filed
+	float salary; // filed
+	
+	void accepctData()
+	{
+		
+	}
+}
+public class Day3_2 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		Employee e2=new Employee();
+		
+
+	}
+
+}

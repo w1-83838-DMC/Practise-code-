@@ -1,0 +1,2 @@
+Command 'car' not found, but can be installed with:
+sudo apt install ucommon-utils

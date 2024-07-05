@@ -1,0 +1,17 @@
+package p1;
+
+public class Employee extends Person{
+	private int empid;
+	private String department;
+	
+	Employee()
+	{
+		
+	}
+	Employee(int empid, String department)
+	{
+		this.empid=empid;
+		this.department=department;
+	}
+
+}

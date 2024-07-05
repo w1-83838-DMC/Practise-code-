@@ -1,0 +1,26 @@
+
+
+/*Final variables final variables can be initialized at the same line Final varaible can be assigned with some value at the later stage final variable can be taken some input from user*/
+//public class Day4_8 {
+//	public static void main(String[] args) {
+//		final int num=25; // once variable is final we can't modify it 
+//		num++;  
+//		System.out.println(" Num " +num);
+//	}
+//
+//}
+
+
+
+public class Day4_8
+{
+	public static void main(String[] args) {
+		final int num;  // decleration of final local variable 
+		num=65;  // defining;
+		System.out.println("Num= "+num);
+		
+	}
+}
+
+
+

@@ -1,0 +1,10 @@
+
+public class Day12_6 {
+	
+	public static void main(String[] args) 
+	{
+		Vector<Integer> v1= new Vector<Integer>();
+		
+	}
+
+}

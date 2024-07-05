@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class Day12_1 {
+	public static void main(String[] args) 
+	{
+		ArrayList<Integer> a1= new ArrayList<Integer>();
+		a1.add(10);
+		a1.add(20);
+		a1.add(30);
+		a1.add(40);
+		a1.add(50);
+		a1.add(60);
+		a1.add(70);
+		
+		System.out.println(" A1 "+ a1);
+		
+		ArrayList<Integer> a2= new ArrayList<Integer>();
+		a2.addAll(a1);
+		System.out.println("a2"+ a2);
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+class Employee
+{
+	// filed of Employee class 
+	String name; // non-primitive 
+	int empid; // primitive 
+	float salary; // primitive
+	
+	void display()
+	{
+		System.out.println(" Name = " + name + " Employee id = " + empid + " Salary = " + salary);
+	}
+	
+}
+public class Day3_5 
+{
+	public static void main(String[] args) {
+		Employee e1= new Employee();
+		e1.display();
+		
+	}
+
+}

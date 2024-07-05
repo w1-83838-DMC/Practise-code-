@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+class person
+{
+	String name;
+	int age;
+	
+	person()
+	{
+		
+		
+	}
+	
+	void accepct()
+	{
+		System.out.println("Enter the Name : ");
+		Scanner sc= new Scanner(System.in);
+		name=sc.next();
+		System.out.println("Enter the Age : ");
+		age=sc.nextInt();
+		
+	}
+	void diaplay()
+	{
+		System.out.println(" Name "+ this.name+ " age "+this.age);
+	}
+	
+	
+}
+class Employee extends person
+{
+	int empid;
+	int salary;
+	
+	Employee()
+	{
+		super();
+		
+	}
+	void accepct()
+	{
+		System.out.println("Enter the Employee id : ");
+		Scanner sc= new Scanner(System.in);
+		empid= sc.nextInt();
+		System.out.println("Enter the Salary : ");
+		salary= sc.nextInt();
+		
+	}
+	void display()
+	{
+		System.out.println(" empid "+ this.empid + " salary "+ this.salary);
+	}
+	
+}
+public class Day8_6 {
+	public static void main(String[] args) {
+		Employee e1= new Employee();
+		e1.display();
+		
+	}
+
+}

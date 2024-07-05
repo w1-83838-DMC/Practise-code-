@@ -1,0 +1,40 @@
+
+public class Demo_03 {
+
+	int date=12;
+	int month;
+	int year;
+	void disDate()
+	{
+		System.out.println("Display Date");
+	}
+
+}
+class student1{
+	int rollno;
+	int marks;
+	static int code;
+	Demo_03 d1=new Demo_03();
+	static Demo2 d2=new Demo2();
+	
+	void accept()
+	{
+		System.out.println("Accepct");
+	}
+	void display()
+	{
+		System.out.println("display");
+	}
+	static void m1()
+	{
+		System.out.println("M1 Method");
+	}
+	public static void main(String[] args) {
+		student1 s3=new student1();
+		s3.d1.disDate();
+		student1.d2.disDate();
+		System.out.println(d2.date);
+
+		
+	}
+}

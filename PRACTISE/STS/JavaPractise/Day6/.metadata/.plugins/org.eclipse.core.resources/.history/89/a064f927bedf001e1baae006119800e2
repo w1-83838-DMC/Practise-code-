@@ -1,0 +1,27 @@
+
+class Employee
+{
+	String name; // filed of Employee class
+	int empid;  // filed of Employee class 
+	Employee(String name, int empid)  
+	{
+		this.name=name;
+		this.empid=empid;
+	}
+	void display()
+	{
+		System.out.println("Name = "+name + "empid = "+empid);
+	}
+}
+
+public class Day6_4 {
+
+	public static void main(String[] args) {
+		Employee e1= new Employee("Ajay",83838);
+		e1.display();
+				
+		
+
+	}
+
+}

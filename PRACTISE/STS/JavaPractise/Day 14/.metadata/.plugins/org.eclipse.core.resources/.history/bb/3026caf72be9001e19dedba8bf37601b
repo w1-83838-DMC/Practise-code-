@@ -1,0 +1,7 @@
+// fetch the metadata about constructor
+class ReflectionDemo
+{
+	private String str;
+	public int value;
+	
+}

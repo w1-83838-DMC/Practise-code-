@@ -1,0 +1,19 @@
+// Default method are those methods who are preceded with keyword "default"
+// we can define default methods once inside the interface 
+// the class or the interface who implements it can use it dirextly
+interface test
+{
+	default public void disp()
+	{
+		System.out.println("Sunbeam infotech ");
+	}
+}
+class Demo 
+{
+	
+}
+
+public class Day14_12 {
+	
+
+}

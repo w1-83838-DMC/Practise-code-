@@ -1,0 +1,13 @@
+
+public class Demo {
+	
+	int i;
+	Demo()
+	{
+	
+	}
+	Demo(int i)
+	{
+		
+	}
+}

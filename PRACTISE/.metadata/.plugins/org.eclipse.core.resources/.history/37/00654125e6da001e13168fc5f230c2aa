@@ -1,0 +1,11 @@
+
+public class Demo02 {
+	int date=12;
+	int month;
+	int year;
+	void disDate()
+	{
+		System.out.println("Display Date");
+	}
+
+}

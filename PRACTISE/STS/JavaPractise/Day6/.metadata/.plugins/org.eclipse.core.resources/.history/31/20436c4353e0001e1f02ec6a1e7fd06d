@@ -1,0 +1,130 @@
+/*class Date
+{
+	int dd;
+	int mm; 
+	int yy;
+	Date()
+	{
+		
+	}
+}
+class Product{
+	int pid;
+	int price;
+	String name;
+	String companyname;
+	String location;
+	
+	Product()
+	{
+		Date doj;
+		
+	}
+	
+	
+	Product(int pid, int price, String name, String companyname,String location)
+	{
+		this.pid=pid;
+		this.price=price;
+		this.name=name;
+		this.companyname=companyname;
+		this.location=location;		
+	}
+
+}
+public class Day6_7
+{
+	public static void main(String[] args) {
+		
+		Product p1[]= new Product[2];
+		
+		p1[0]= new Product(12,14000,"Ajay","Sunbeam","Hinjawadi");
+		
+		for(Product p : p1)
+		{
+			System.out.println(p);
+		}
+		
+		
+	}
+}
+*/
+
+class Date
+{
+	int dd;
+	int mm;
+	int yy;
+	
+	Date()
+	{
+		
+	}
+	Date(int dd, int mm, int yy)
+	{
+		this.dd=dd;
+		this.mm=mm;
+		this.yy=yy;
+	}
+	void display()
+	{
+		System.out.println(this.dd +"/"+ this.mm +"/"+ this.yy);
+	}
+	
+}
+class student
+{
+	int rollno;  // filed
+	int marks;   // filed
+	Date dobj;   // Reference
+	
+	
+	student()
+	{
+		dobj=new Date();
+		
+		
+	}
+	student(int rollno, int marks)
+	{
+		this.rollno=rollno;
+		this.marks=marks;
+	}
+	void printData()
+	{
+		System.out.println(" Roll no = "+ this.rollno + " Marks ="+ this.marks );
+		dobj.display();
+		
+	}
+}
+//public class Day6_7
+//{
+//	public static void main(String[] args) {
+//		student s1= new student();
+//		s1.printData();
+//		
+//	}
+//}
+
+public class Day6_7
+{
+	public static void main(String[] args) {
+		student sarr[]= new student[3];
+		sarr[0]=new student();
+		sarr[1]=new student(11,876);
+		sarr[2]=new student(11,567);
+		
+//		for(student s: sarr)
+//		{
+//			System.out.print(s+ "\t");
+//		}
+		for(student s: sarr)
+		{
+			s.printData();
+		}
+		
+		
+	}
+	
+}
+

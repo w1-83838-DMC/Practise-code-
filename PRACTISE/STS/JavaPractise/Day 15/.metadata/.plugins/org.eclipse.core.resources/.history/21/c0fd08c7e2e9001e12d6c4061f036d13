@@ -1,0 +1,9 @@
+//method reference to a constructor
+
+interface Test
+{
+	
+}
+public class Day15_9 {
+
+}

@@ -1,0 +1,31 @@
+public class test {
+	int date;
+	int month;
+	int year;
+	void displaydate()
+	{
+		System.out.println("Display date");
+	}
+	static void displayTime()
+	{
+		System.out.println("Display Time ");
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		person p1=new person();
+		p1.t1.displaydate();
+		p1.t1.displayTime();
+		
+	}
+
+}
+class person{
+	int rollno;
+	int marks;
+	static int percentage;
+	test t1=new test();
+	static test t2=new test();
+	
+}

@@ -1,0 +1,19 @@
+// Read and write a single byte from text file
+
+import java.util.Scanner;
+
+public class Day14_4 {
+	
+	static Scanner sc=new Scanner(System.in);
+	String fname= "Demo.txt";
+	
+	static int menuchoice()
+	{
+		System.out.println("0.Exit 1. AddData 2.ReadData ");
+		return sc.nextInt();
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

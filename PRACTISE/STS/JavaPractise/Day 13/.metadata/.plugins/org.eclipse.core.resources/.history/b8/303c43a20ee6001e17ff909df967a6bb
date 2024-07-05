@@ -1,0 +1,51 @@
+// read and write a single byte from binary file
+
+// read  -> InputStream
+// Write -> OutputStream
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.File;
+
+public class Day13_8 {
+	
+	static String fname="File.dat";
+	
+	public static void readRecord() 
+	{
+		
+		FileInputStream fp = null;
+		try {
+		fp= new FileInputStream(new File(fname));
+		
+		}catch(FileNotFoundException e)
+		{
+			e.printStackTrace();
+			
+		}
+		
+		
+		
+	}
+	
+	public static void WriteRecord()
+	{
+		// Write-> FileOutputStream
+		FileOutputStream fO= new FileOutStream(new File(fname));
+		
+	}
+	
+	public static void main(String[] args) {
+		int choice;
+		switch(choice)
+		{
+			case 1: readRecord();  break;
+			
+			case 2: WriteRecord(); break;
+			
+		}
+		
+	}
+
+}

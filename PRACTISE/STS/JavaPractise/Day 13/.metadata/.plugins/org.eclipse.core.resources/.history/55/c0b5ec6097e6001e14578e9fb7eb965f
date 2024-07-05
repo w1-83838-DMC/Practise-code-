@@ -1,0 +1,11 @@
+// Read and Write Multiple bytes from Binary file
+import java.util.Scanner;
+public class Day13_10 {
+	
+	Scanner sc= new Scanner(System.in);
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

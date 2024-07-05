@@ -1,0 +1,23 @@
+package com.sunbeam;
+
+public class List1 {
+	static class Node{
+		private char data;
+		private Node next;
+		public Node(char value)
+		{
+			data=value;
+		}
+	}
+	private Node head;
+	private Node tail;
+	public List1()
+	{
+		head=null;
+		tail=null;
+	}
+	public void isEmpty()
+	{
+		return head==null && tail==null;
+	}
+}

@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+
+public class Day11_13 {
+	
+	public static void AccepctIntData(ArrayList<Integer>al)
+	{
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		al.add(40);
+	}
+	public static void displayIntData(ArrayList<Integer>al)
+	{
+		System.out.println("The ArrayList contains "+ al);
+	}
+	public static void AccepctFloatData(ArrayList<Float>al)
+	{
+		al.add(12.45f);
+	}
+	public static void main(String[] args) {
+		
+		int arr[]= {1,23,4,5};
+		ArrayList<Integer>a1= new ArrayList<Integer>();
+		ArrayList<Float>a2= new ArrayList<Float>();
+		ArrayList<Double>a3= new ArrayList<Double>();
+		ArrayList<String>a4= new ArrayList<String>();
+		
+		AccepctIntData(a1);
+		displayIntData(a1);
+		
+		AccepctFloatData(a2);
+		displayFloatData(a2);
+	}
+
+}

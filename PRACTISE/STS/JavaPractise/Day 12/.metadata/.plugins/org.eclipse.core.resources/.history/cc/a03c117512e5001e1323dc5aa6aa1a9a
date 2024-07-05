@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+
+class Employee
+{
+	String name;
+	int empid;
+	public Employee()
+	{
+		
+	}
+	public Employee(String name,int empid)
+	{
+		this.name= name;
+		this.empid= empid;
+	}
+	// to String() method
+	public String toString()
+	{
+		return "Employee Name "+ this.name+ " Employee id "+ this.empid;
+				
+	}
+}
+
+public class Day12_4 {
+	public static void main(String[] args)
+	{
+		ArrayList<Employee>a1= new ArrayList<Employee>();
+		Employee e1= new Employee("emp1",123);
+		System.out.println(e1);
+		
+	}
+
+}

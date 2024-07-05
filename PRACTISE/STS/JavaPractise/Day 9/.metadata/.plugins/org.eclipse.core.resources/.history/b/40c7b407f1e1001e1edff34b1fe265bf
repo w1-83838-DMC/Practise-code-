@@ -1,0 +1,13 @@
+package p1;
+
+public class Laptop {
+	void start()
+	{
+		System.out.println("Laptop - Start ");
+	}
+	void stop()
+	{
+		System.out.println("Laptop - stop ");
+	}
+
+}

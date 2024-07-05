@@ -1,0 +1,5 @@
+package com.sunbeam;
+
+public class DoublyCircularLinkedListMain {
+	List l1= new List();
+}

@@ -1,0 +1,17 @@
+package p1;
+
+public class Trainer extends Person{
+	int tid;
+	String department;
+	
+	public void test()
+	{
+		
+	}
+	public displayDetails(String module)
+	{
+		
+	}
+	
+
+}

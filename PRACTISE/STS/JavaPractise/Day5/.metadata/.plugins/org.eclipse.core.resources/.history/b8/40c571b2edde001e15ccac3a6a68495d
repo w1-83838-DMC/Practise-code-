@@ -1,0 +1,31 @@
+/* static filed is initialized at the time of decleration (followd)  it is shared among all the object of the class it maintain its state (PERSISITANCE PROPERTY) whoever is update the value last that value is maintained(retain*/
+class test
+{
+	int num1;  // filed // instance filed
+	int num2;
+	static int num3;
+	
+	test() // parameterless Constructor
+	{
+		this.num1=1;
+		this.num2=2;
+	}
+	test(int num1,int num2) // parameterized constructor
+	{
+		this.num1=num1;
+		this.num2=num2;
+	}
+	void display()
+	{
+		System.out.println(" Num1 = " + this.num1 +" Num2 = " + this.num2 + " Num3 = "+ test.num3);
+	}
+}
+public class Day5_1 {
+	public static void main(String[] args) {
+		test t1= new test();
+		t1.display();
+	}
+	
+	
+
+}

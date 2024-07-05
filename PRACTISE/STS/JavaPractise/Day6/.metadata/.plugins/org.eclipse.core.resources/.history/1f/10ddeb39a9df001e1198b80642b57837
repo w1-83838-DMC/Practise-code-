@@ -1,0 +1,20 @@
+/* Reference copy (Deep Copy) We are only copying the value */
+public class Day6_2 {
+
+	public static void main(String[] args) 
+	{
+		int arr[]= new int[5];
+		arr[0]=12;
+		arr[1]=34;
+		arr[2]=98;
+		arr[3]=98;
+		arr[4]=23;
+		
+		for(int i:arr)
+		{
+			System.out.print(i + "\t");
+		}
+		System.out.println();
+	}
+
+}

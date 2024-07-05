@@ -1,0 +1,24 @@
+
+class Movie implements comparator
+{
+	int year;
+	String name;
+	double rating;
+	public Movie() {
+		super();
+		
+	}
+	public Movie(int year, String name, double rating) {
+		super();
+		this.year = year;
+		this.name = name;
+		this.rating = rating;
+	}
+	
+	
+}
+
+public class Day13_6 {
+	
+
+}

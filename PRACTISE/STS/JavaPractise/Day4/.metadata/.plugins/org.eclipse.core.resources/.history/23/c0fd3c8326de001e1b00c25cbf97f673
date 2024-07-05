@@ -1,0 +1,28 @@
+package p2;
+
+public class trainer {
+	String name;
+	String module;
+	
+	trainer()
+	{
+		this.name="Ajay";
+		this.module="DMC";
+	}
+	
+	trainer(String name, String module)
+	{
+		this.name=name;
+		this.module=module;
+	}
+	
+	public String toString()
+	{
+		return "Name "
+	}
+	
+	
+	
+	
+
+}

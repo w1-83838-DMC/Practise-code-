@@ -1,0 +1,11 @@
+package p1;
+import Laptop;
+
+public class Day9_2 {
+	public static void main(String[] args) {
+		
+		Laptop l1= new Laptop();
+		1l.start();
+	}
+
+}

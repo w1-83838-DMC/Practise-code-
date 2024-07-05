@@ -1,0 +1,1514 @@
+24-Apr-2024 14:03:40.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 14:03:40.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 14:03:40.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:03:40.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:03:40.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 14:03:40.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 14:03:40.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 14:03:40.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 14:03:40.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 14:03:40.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:03:40.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:03:40.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 14:03:40.989 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 14:03:41.204 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:03:41.222 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [394] milliseconds
+24-Apr-2024 14:03:41.258 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 14:03:41.258 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 14:03:41.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 14:03:41.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [204] ms
+24-Apr-2024 14:03:41.468 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 14:03:41.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [153] ms
+24-Apr-2024 14:03:41.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 14:03:41.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [22] ms
+24-Apr-2024 14:03:41.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 14:03:41.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [31] ms
+24-Apr-2024 14:03:41.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 14:03:41.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [17] ms
+24-Apr-2024 14:03:41.700 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:03:41.709 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [486] milliseconds
+24-Apr-2024 14:04:16.689 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 14:04:16.690 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:04:16.692 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 14:04:16.712 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:04:16.725 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:04:21.268 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 14:04:21.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 14:04:21.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 14:04:21.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 14:04:21.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 14:04:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 14:04:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 14:04:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 14:04:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 14:04:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:04:21.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:04:21.279 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 14:04:21.280 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 14:04:21.282 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 14:04:21.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:04:21.517 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [361] milliseconds
+24-Apr-2024 14:04:21.564 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 14:04:21.564 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 14:04:21.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 14:04:21.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [202] ms
+24-Apr-2024 14:04:21.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 14:04:21.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [139] ms
+24-Apr-2024 14:04:21.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 14:04:21.931 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [18] ms
+24-Apr-2024 14:04:21.931 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 14:04:21.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [16] ms
+24-Apr-2024 14:04:21.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 14:04:21.962 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+24-Apr-2024 14:04:21.967 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:04:21.977 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [459] milliseconds
+24-Apr-2024 14:45:21.877 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 14:45:21.878 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:45:21.880 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 14:45:21.897 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 14:45:21.904 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:03:49.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 15:03:49.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 15:03:49.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 15:03:49.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 15:03:49.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 15:03:49.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 15:03:49.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 15:03:49.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 15:03:49.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 15:03:49.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:03:49.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:03:49.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 15:03:49.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 15:03:49.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 15:03:49.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 15:03:49.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 15:03:49.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:03:49.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:03:49.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 15:03:49.361 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 15:03:49.715 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:03:49.743 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [547] milliseconds
+24-Apr-2024 15:03:49.803 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 15:03:49.804 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 15:03:49.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 15:03:50.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [217] ms
+24-Apr-2024 15:03:50.029 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 15:03:50.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [164] ms
+24-Apr-2024 15:03:50.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 15:03:50.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [21] ms
+24-Apr-2024 15:03:50.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 15:03:50.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [24] ms
+24-Apr-2024 15:03:50.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 15:03:50.257 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [18] ms
+24-Apr-2024 15:03:50.263 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:03:50.277 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [533] milliseconds
+24-Apr-2024 15:05:30.296 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo01]
+24-Apr-2024 15:05:30.331 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo01] has finished in [35] ms
+24-Apr-2024 15:08:40.670 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 15:08:40.670 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:08:40.672 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 15:08:40.692 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:08:40.695 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:14:29.901 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 15:14:29.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 15:14:29.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 15:14:29.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 15:14:29.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 15:14:29.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 15:14:29.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 15:14:29.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 15:14:29.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 15:14:29.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:14:29.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:14:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 15:14:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 15:14:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 15:14:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 15:14:29.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 15:14:29.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:14:29.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:14:29.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 15:14:29.918 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 15:14:30.237 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:14:30.259 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [521] milliseconds
+24-Apr-2024 15:14:30.315 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 15:14:30.316 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 15:14:30.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo01]
+24-Apr-2024 15:14:30.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo01] has finished in [240] ms
+24-Apr-2024 15:14:30.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 15:14:30.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [24] ms
+24-Apr-2024 15:14:30.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 15:14:30.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [158] ms
+24-Apr-2024 15:14:30.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 15:14:30.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [26] ms
+24-Apr-2024 15:14:30.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 15:14:30.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [22] ms
+24-Apr-2024 15:14:30.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 15:14:30.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [19] ms
+24-Apr-2024 15:14:30.822 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:14:30.834 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [575] milliseconds
+24-Apr-2024 15:21:41.341 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo01]
+24-Apr-2024 15:21:41.343 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo01] has started
+24-Apr-2024 15:21:41.378 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo01] is completed
+24-Apr-2024 15:29:21.462 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:29:21.491 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [29] ms
+24-Apr-2024 15:30:31.504 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 15:30:31.504 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 15:30:31.525 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 15:30:52.029 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo01]
+24-Apr-2024 15:30:52.537 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 15:31:02.544 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:31:02.567 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [23] ms
+24-Apr-2024 15:32:48.067 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 15:32:48.067 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:32:48.069 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 15:32:48.080 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:32:48.092 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:43:47.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 15:43:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 15:43:47.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:43:47.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:43:47.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:43:47.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 15:43:47.331 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 15:43:47.629 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:43:47.656 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [483] milliseconds
+24-Apr-2024 15:43:47.729 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 15:43:47.738 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 15:43:47.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 15:43:48.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [259] ms
+24-Apr-2024 15:43:48.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 15:43:48.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [225] ms
+24-Apr-2024 15:43:48.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 15:43:48.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [29] ms
+24-Apr-2024 15:43:48.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 15:43:48.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [25] ms
+24-Apr-2024 15:43:48.289 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:43:48.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [30] ms
+24-Apr-2024 15:43:48.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 15:43:48.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [19] ms
+24-Apr-2024 15:43:48.350 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:43:48.360 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [703] milliseconds
+24-Apr-2024 15:45:28.883 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 15:45:48.912 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:45:48.948 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [36] ms
+24-Apr-2024 15:45:58.950 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 15:45:58.951 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 15:45:58.981 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 15:46:29.488 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 15:46:59.498 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:46:59.526 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [28] ms
+24-Apr-2024 15:47:23.601 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 15:47:23.601 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:47:23.604 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 15:47:23.620 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:47:23.648 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:47:25.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 15:47:25.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 15:47:25.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 15:47:25.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 15:47:25.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 15:47:25.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 15:47:25.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 15:47:25.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 15:47:25.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 15:47:25.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:47:25.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:47:25.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 15:47:25.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 15:47:25.325 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 15:47:25.626 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:47:25.649 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [484] milliseconds
+24-Apr-2024 15:47:25.707 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 15:47:25.708 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 15:47:25.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 15:47:25.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [221] ms
+24-Apr-2024 15:47:25.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 15:47:26.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [155] ms
+24-Apr-2024 15:47:26.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 15:47:26.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [26] ms
+24-Apr-2024 15:47:26.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 15:47:26.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [26] ms
+24-Apr-2024 15:47:26.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:47:26.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [38] ms
+24-Apr-2024 15:47:26.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 15:47:26.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [15] ms
+24-Apr-2024 15:47:26.206 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 15:47:26.215 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [566] milliseconds
+24-Apr-2024 15:48:06.722 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 15:48:26.740 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 15:48:26.770 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [30] ms
+24-Apr-2024 16:01:26.868 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:01:26.868 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:01:26.933 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:05:06.964 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:05:06.964 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:05:06.985 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/demo02]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3582)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [HelloServelet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3029)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1500)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1287)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 17 more
+24-Apr-2024 16:05:06.987 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:05:57.006 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:05:57.026 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/demo02] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [HelloServelet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3029)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1500)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1287)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+24-Apr-2024 16:06:57.034 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:10:47.075 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:10:47.075 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:10:47.088 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/demo02]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3582)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServelet1] and [com.sunbeam.HelloServlet] are both mapped to the url-pattern [/hello] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 17 more
+24-Apr-2024 16:10:47.088 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:11:27.094 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:11:57.620 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 16:12:17.630 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 16:12:17.647 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [17] ms
+24-Apr-2024 16:13:27.667 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:13:27.667 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:13:27.686 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:16:18.210 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 16:16:58.224 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 16:16:58.248 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [24] ms
+24-Apr-2024 16:17:08.249 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:17:08.250 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:17:08.275 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:18:38.297 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:18:38.297 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:18:38.313 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:19:28.320 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:19:28.320 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:19:28.340 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:21:28.366 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:21:28.366 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:21:28.384 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/demo02]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3582)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 17 more
+24-Apr-2024 16:21:28.385 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:22:18.393 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:22:18.407 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/demo02] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+24-Apr-2024 16:22:58.914 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 16:23:28.925 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 16:23:28.934 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1633)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 25 more
+24-Apr-2024 16:23:28.935 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [11] ms
+24-Apr-2024 16:24:18.942 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:25:08.978 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:25:08.978 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] has started
+24-Apr-2024 16:25:08.998 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/demo02]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3582)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 17 more
+24-Apr-2024 16:25:08.998 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo02] is completed
+24-Apr-2024 16:26:09.009 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:26:09.018 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/demo02] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+24-Apr-2024 16:26:49.524 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 16:27:09.531 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 16:27:09.550 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1633)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 25 more
+24-Apr-2024 16:27:09.551 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [20] ms
+24-Apr-2024 16:27:22.632 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 16:27:22.632 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 16:27:22.641 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 16:27:22.664 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 16:27:22.676 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 16:28:30.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 16:28:30.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 16:28:30.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 16:28:30.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 16:28:30.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 16:28:30.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 16:28:30.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 16:28:30.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 16:28:30.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 16:28:30.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 16:28:30.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 16:28:30.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 16:28:30.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 16:28:30.661 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 16:28:30.995 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 16:28:31.020 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [511] milliseconds
+24-Apr-2024 16:28:31.084 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 16:28:31.085 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 16:28:31.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 16:28:31.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [259] ms
+24-Apr-2024 16:28:31.356 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 16:28:31.532 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [176] ms
+24-Apr-2024 16:28:31.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 16:28:31.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [23] ms
+24-Apr-2024 16:28:31.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 16:28:31.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [26] ms
+24-Apr-2024 16:28:31.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+24-Apr-2024 16:28:31.599 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 38 more
+24-Apr-2024 16:28:31.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo02] has finished in [17] ms
+24-Apr-2024 16:28:31.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 16:28:31.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [19] ms
+24-Apr-2024 16:28:31.628 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 16:28:31.639 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [618] milliseconds
+24-Apr-2024 16:29:41.653 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:29:41.684 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/demo02] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+24-Apr-2024 16:30:21.692 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo02]
+24-Apr-2024 16:30:21.717 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/demo02] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo02]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.HelloServlet1] and [com.sunbeam.HelloServelet1] are both mapped to the url-pattern [/hi] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+24-Apr-2024 16:42:21.845 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+24-Apr-2024 16:42:21.862 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [17] ms
+24-Apr-2024 16:49:42.439 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo03]
+24-Apr-2024 16:49:42.952 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo02]
+24-Apr-2024 16:50:02.959 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/Day_03]
+24-Apr-2024 16:50:02.974 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/Day_03] has finished in [15] ms
+24-Apr-2024 16:59:23.559 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/Day_03]
+24-Apr-2024 17:01:03.585 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/target]
+24-Apr-2024 17:01:03.605 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/target] has finished in [20] ms
+24-Apr-2024 17:06:24.163 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/target]
+24-Apr-2024 17:06:44.172 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+24-Apr-2024 17:06:44.188 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [16] ms
+24-Apr-2024 17:10:04.215 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:10:04.215 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:10:04.231 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:10:44.241 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:10:44.241 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:10:44.270 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:12:44.294 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:12:44.294 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:12:44.314 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:12:54.316 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:12:54.317 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:12:54.343 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:26:54.448 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:26:54.449 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:26:54.465 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:28:14.482 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:28:14.482 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:28:14.499 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:51:44.674 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:51:44.674 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:51:44.692 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+24-Apr-2024 17:51:44.692 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/demo03] startup failed due to previous errors
+24-Apr-2024 17:51:44.693 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:52:40.612 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 17:52:40.613 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 17:52:40.614 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 17:52:40.623 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 17:52:40.627 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 17:52:42.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 17:52:42.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 17:52:42.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 17:52:42.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 17:52:42.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 17:52:42.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 17:52:42.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 17:52:42.242 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 17:52:42.486 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 17:52:42.509 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [401] milliseconds
+24-Apr-2024 17:52:42.559 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 17:52:42.559 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 17:52:42.567 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+24-Apr-2024 17:52:42.776 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+24-Apr-2024 17:52:42.776 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/demo03] startup failed due to previous errors
+24-Apr-2024 17:52:42.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [216] ms
+24-Apr-2024 17:52:42.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 17:52:42.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [24] ms
+24-Apr-2024 17:52:42.807 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 17:52:42.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [137] ms
+24-Apr-2024 17:52:42.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 17:52:42.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [22] ms
+24-Apr-2024 17:52:42.968 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 17:52:42.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [18] ms
+24-Apr-2024 17:52:42.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 17:52:43.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [13] ms
+24-Apr-2024 17:52:43.005 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 17:52:43.013 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [502] milliseconds
+24-Apr-2024 17:52:53.007 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:52:53.039 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+24-Apr-2024 17:52:53.039 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/demo03] startup failed due to previous errors
+24-Apr-2024 17:53:43.057 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:54:03.077 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:54:03.078 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:54:03.095 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:54:43.109 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:54:43.110 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:54:43.134 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+24-Apr-2024 17:54:43.134 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/demo03] startup failed due to previous errors
+24-Apr-2024 17:54:43.136 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 17:55:23.146 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:55:23.163 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+24-Apr-2024 17:55:23.163 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.startInternal Context [/demo03] startup failed due to previous errors
+24-Apr-2024 17:56:13.184 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:57:13.214 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 17:57:13.214 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 17:57:13.236 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:00:03.264 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:00:03.264 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:00:03.287 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:00:13.289 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:00:13.289 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:00:13.304 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:08:03.375 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:08:03.375 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:08:03.389 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:08:23.396 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:08:23.396 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:08:23.411 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:08:53.416 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:08:53.416 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:08:53.436 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:12:23.470 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:12:23.470 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:12:23.489 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:17:43.542 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:17:43.542 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:17:43.559 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:20:43.585 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 18:20:43.586 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] has started
+24-Apr-2024 18:20:43.605 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/demo03]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo03]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3582)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.DMCServeexte] and [com.sunbeam.DmcServlet] are both mapped to the url-pattern [/mobile] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 17 more
+24-Apr-2024 18:20:43.606 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo03] is completed
+24-Apr-2024 18:21:52.550 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 18:21:52.550 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:21:52.552 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 18:21:52.562 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:21:52.566 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:31:54.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 18:31:54.631 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:31:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:31:54.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 18:31:54.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 18:31:54.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 18:31:54.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 18:31:54.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 18:31:54.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:31:54.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:31:54.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 18:31:54.642 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 18:31:54.910 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:31:54.929 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [406] milliseconds
+24-Apr-2024 18:31:54.984 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 18:31:54.985 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 18:31:54.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+24-Apr-2024 18:31:55.116 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo03]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.DMCServeexte] and [com.sunbeam.DmcServlet] are both mapped to the url-pattern [/mobile] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 38 more
+24-Apr-2024 18:31:55.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [127] ms
+24-Apr-2024 18:31:55.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 18:31:55.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [90] ms
+24-Apr-2024 18:31:55.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 18:31:55.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [201] ms
+24-Apr-2024 18:31:55.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 18:31:55.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [23] ms
+24-Apr-2024 18:31:55.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 18:31:55.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [22] ms
+24-Apr-2024 18:31:55.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 18:31:55.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [17] ms
+24-Apr-2024 18:31:55.478 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:31:55.489 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [559] milliseconds
+24-Apr-2024 18:32:05.486 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 18:32:05.487 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:32:05.489 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 18:32:05.509 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:32:05.512 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:32:05.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:32:05.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 18:32:05.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 18:32:05.855 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 18:32:06.096 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:32:06.115 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [398] milliseconds
+24-Apr-2024 18:32:06.154 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 18:32:06.154 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 18:32:06.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+24-Apr-2024 18:32:06.306 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:903)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1345)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1335)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:876)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:470)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:951)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo03]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.DMCServeexte] and [com.sunbeam.DmcServlet] are both mapped to the url-pattern [/mobile] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 38 more
+24-Apr-2024 18:32:06.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [147] ms
+24-Apr-2024 18:32:06.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 18:32:06.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [92] ms
+24-Apr-2024 18:32:06.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 18:32:06.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [161] ms
+24-Apr-2024 18:32:06.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 18:32:06.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [24] ms
+24-Apr-2024 18:32:06.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 18:32:06.607 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [22] ms
+24-Apr-2024 18:32:06.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 18:32:06.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+24-Apr-2024 18:32:06.626 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:32:06.633 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [518] milliseconds
+24-Apr-2024 18:48:27.331 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo03]
+24-Apr-2024 18:49:07.353 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+24-Apr-2024 18:49:07.389 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [36] ms
+24-Apr-2024 18:50:57.414 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:50:57.415 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:50:57.435 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:52:57.454 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:52:57.454 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:52:57.477 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:53:57.486 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:53:57.487 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:53:57.515 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:54:37.531 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:54:37.531 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:54:37.549 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:54:57.552 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:54:57.552 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:54:57.577 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:55:27.582 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:55:27.582 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:55:27.604 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:56:47.617 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 18:56:47.617 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 18:56:47.639 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 18:58:43.308 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 18:58:43.308 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:58:43.311 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 18:58:43.341 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 18:58:43.354 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 20:24:57.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 20:24:57.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 20:24:57.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 20:24:57.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 20:24:57.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 20:24:57.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 20:24:57.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 20:24:57.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 20:24:57.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 20:24:57.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 20:24:57.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 20:24:57.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 20:24:57.713 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 20:24:58.035 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 20:24:58.058 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [520] milliseconds
+24-Apr-2024 20:24:58.128 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 20:24:58.129 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 20:24:58.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 20:24:58.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [236] ms
+24-Apr-2024 20:24:58.376 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 20:24:58.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [251] ms
+24-Apr-2024 20:24:58.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+24-Apr-2024 20:24:58.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [36] ms
+24-Apr-2024 20:24:58.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 20:24:58.695 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [28] ms
+24-Apr-2024 20:24:58.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 20:24:58.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [46] ms
+24-Apr-2024 20:24:58.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 20:24:58.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [28] ms
+24-Apr-2024 20:24:58.785 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 20:24:58.800 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [741] milliseconds
+24-Apr-2024 20:27:28.843 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 20:27:28.844 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 20:27:28.889 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 20:27:28.891 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+24-Apr-2024 20:27:28.914 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [23] ms
+24-Apr-2024 20:48:39.122 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 20:48:39.122 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 20:48:39.146 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 20:51:29.175 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 20:51:29.176 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 20:51:29.197 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 20:54:19.227 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 20:54:19.228 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 20:54:19.253 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 20:56:19.275 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 20:56:19.276 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 20:56:19.292 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:00:29.334 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 21:00:29.334 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 21:00:29.350 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:03:49.380 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 21:03:49.380 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 21:03:49.396 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:04:09.404 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 21:04:09.405 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 21:04:09.425 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:06:09.445 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 21:06:09.445 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 21:06:09.462 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:08:39.986 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo05]
+24-Apr-2024 21:12:50.027 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+24-Apr-2024 21:12:50.045 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [18] ms
+24-Apr-2024 21:13:20.048 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 21:13:20.048 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 21:13:20.068 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:13:40.072 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 21:13:40.072 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 21:13:40.085 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 21:14:31.086 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 21:14:31.086 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:14:31.089 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 21:14:31.112 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:14:31.124 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:15:03.019 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 21:15:03.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 21:15:03.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 21:15:03.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 21:15:03.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 21:15:03.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 21:15:03.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 21:15:03.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 21:15:03.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 21:15:03.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 21:15:03.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 21:15:03.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 21:15:03.045 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 21:15:03.445 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:15:03.474 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [638] milliseconds
+24-Apr-2024 21:15:03.544 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 21:15:03.544 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 21:15:03.553 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 21:15:03.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [316] ms
+24-Apr-2024 21:15:03.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 21:15:04.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [226] ms
+24-Apr-2024 21:15:04.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+24-Apr-2024 21:15:04.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [58] ms
+24-Apr-2024 21:15:04.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 21:15:04.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [29] ms
+24-Apr-2024 21:15:04.185 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 21:15:04.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [26] ms
+24-Apr-2024 21:15:04.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+24-Apr-2024 21:15:04.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [28] ms
+24-Apr-2024 21:15:04.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 21:15:04.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [17] ms
+24-Apr-2024 21:15:04.262 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:15:04.271 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [796] milliseconds
+24-Apr-2024 21:15:23.258 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 21:15:23.258 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:15:23.260 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 21:15:23.283 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 21:15:23.294 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 23:10:19.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+24-Apr-2024 23:10:19.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+24-Apr-2024 23:10:19.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+24-Apr-2024 23:10:19.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Apr-2024 23:10:19.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+24-Apr-2024 23:10:19.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Apr-2024 23:10:19.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-Apr-2024 23:10:19.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+24-Apr-2024 23:10:19.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-Apr-2024 23:10:19.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 23:10:19.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 23:10:19.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+24-Apr-2024 23:10:19.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Apr-2024 23:10:19.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Apr-2024 23:10:19.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Apr-2024 23:10:19.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Apr-2024 23:10:19.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 23:10:19.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+24-Apr-2024 23:10:19.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+24-Apr-2024 23:10:19.386 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-Apr-2024 23:10:20.100 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 23:10:20.174 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1210] milliseconds
+24-Apr-2024 23:10:20.312 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Apr-2024 23:10:20.313 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+24-Apr-2024 23:10:20.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+24-Apr-2024 23:10:20.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [530] ms
+24-Apr-2024 23:10:20.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+24-Apr-2024 23:10:21.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [320] ms
+24-Apr-2024 23:10:21.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+24-Apr-2024 23:10:21.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [66] ms
+24-Apr-2024 23:10:21.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+24-Apr-2024 23:10:21.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [45] ms
+24-Apr-2024 23:10:21.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+24-Apr-2024 23:10:21.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [39] ms
+24-Apr-2024 23:10:21.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+24-Apr-2024 23:10:21.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [38] ms
+24-Apr-2024 23:10:21.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+24-Apr-2024 23:10:21.408 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [34] ms
+24-Apr-2024 23:10:21.418 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 23:10:21.436 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1259] milliseconds
+24-Apr-2024 23:11:31.448 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo05]
+24-Apr-2024 23:11:31.450 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] has started
+24-Apr-2024 23:11:31.551 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo05] is completed
+24-Apr-2024 23:11:31.552 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo04]
+24-Apr-2024 23:11:31.555 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] has started
+24-Apr-2024 23:11:31.623 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/demo04] is completed
+24-Apr-2024 23:11:31.624 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+24-Apr-2024 23:11:31.673 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:690)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:659)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1175)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1086)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:470)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1633)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo03]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:687)
+		... 24 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.DMCServeexte] and [com.sunbeam.DmcServlet] are both mapped to the url-pattern [/mobile] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 25 more
+24-Apr-2024 23:11:31.676 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [52] ms
+24-Apr-2024 23:13:51.711 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/demo03]
+24-Apr-2024 23:13:51.741 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/demo03] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/demo03]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1424)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1620)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:308)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1108)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1314)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1318)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1296)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.IllegalArgumentException: The servlets named [com.sunbeam.DMCServeexte] and [com.sunbeam.DmcServlet] are both mapped to the url-pattern [/mobile] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:354)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:347)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2547)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2252)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2241)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2151)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2146)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1351)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1261)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:961)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:290)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4817)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 16 more
+24-Apr-2024 23:15:08.061 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Apr-2024 23:15:08.062 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 23:15:08.066 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Apr-2024 23:15:08.097 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Apr-2024 23:15:08.112 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

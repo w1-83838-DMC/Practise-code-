@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Day11_12 {
+	public static void main(String[] args)
+	{
+		ArrayList a= new ArrayList(); // Raw type
+		a1.add(10);
+		a1.add(20);
+		
+		
+		
+	}
+	
+
+}

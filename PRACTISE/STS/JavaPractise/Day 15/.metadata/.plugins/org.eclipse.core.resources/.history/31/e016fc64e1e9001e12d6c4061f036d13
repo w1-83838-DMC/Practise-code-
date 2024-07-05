@@ -1,0 +1,15 @@
+// Method reference to an instance method of an arbitaray object
+
+import java.util.Arrays;
+
+public class Day15_8 {
+	public static void main(String[] args) 
+	{
+		String starr[]= {"java","C","C++","Python","ml"};
+		System.out.println("Contents are " + Arrays.toString(starr));
+		//Arrays.sort(starr);
+		Arrays.sort(starr,String::compareTo);
+		System.out.println("Sorted contents are "+ Arrays.toString(starr));
+		
+	}
+}

@@ -1,0 +1,22 @@
+class Demo<T>
+{
+	T num; // filed of a class
+	Demo() // parameterless Constructor
+	{
+		
+	}
+	Demo(T num) // parameterized Constructor
+	{
+		this.num=num;
+	}
+	void display()
+	{
+		System.out.println(" Value "+ this.num);
+		
+	}
+}
+
+
+public class Day11_6 {
+
+}

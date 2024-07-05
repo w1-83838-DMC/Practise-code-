@@ -1,0 +1,33 @@
+class Demo<T>
+{
+	T n1; // filed of a class
+	T n2; // filed of a class
+	Demo() // parameterless Constructor
+	{
+		
+	}
+	Demo(T n1) // parameterized Constructor is taking one argument of type T which is generic type 
+	{
+		this.n1=n1;
+	}
+	Demo(T n1,T n2)
+	{
+		this.n1=n1;
+		this.n2=n2;
+	}
+	void display()
+	{
+		System.out.println(" Value 1 "+ this.n1 + "Value 2 "+ this.n2);
+		
+	}
+}
+public class Day11_6 {
+
+	public static void main(String[] args) {
+		Demo d1= new Demo(12); // raw type
+		Demo d2= new Demo(12,67);
+		d1.display();
+		d2.display();
+		
+	}
+}

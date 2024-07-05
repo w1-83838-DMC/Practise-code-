@@ -1,0 +1,11 @@
+
+
+/*Final variables final variables can be initialized at the same line Final varaible can be assigned with some value at the later stage final variable can be taken some input from user*/
+public class Day4_8 {
+	public static void main(String[] args) {
+		int num=25;
+		System.out.println("Num = "+num);
+		num++;
+	}
+
+}

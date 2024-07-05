@@ -1,0 +1,24 @@
+// instance operator
+// operator 
+// used for checking whether object belongs to the class
+class Demo
+{
+	
+}
+class Test
+{
+	
+}
+
+public class Day13_3 {
+	public static void main(String[] args) 
+	{
+		Demo dobj= new Demo();
+		Test tobj= new Test();
+		
+		boolean b = dobj instanceof Demo;
+		System.out.println("b"+ b);
+		
+	}
+
+}

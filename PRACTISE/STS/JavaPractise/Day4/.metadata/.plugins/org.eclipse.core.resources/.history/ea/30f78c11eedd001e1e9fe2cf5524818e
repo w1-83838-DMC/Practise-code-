@@ -1,0 +1,35 @@
+/* To string() is overridden inside the class Employee It is going to call toString() From Employee class */
+class employee
+{
+	private String name;
+    private String department;
+	private String designation;
+	private int empid;
+	private float salary;
+	
+	public employee()
+	{
+		this.name=" Ajay";
+		this.department=" DMC";
+		this.designation=" Software Developer";
+		this.empid= 83838;
+		this.salary=890000;
+	}
+	void display()
+	{
+		System.out.println(" Employee name= "+this.name + " Employee Department= "+this.department + " Employee Designation= "+this.designation + " Employee id= " + this.empid + " Employee salary= " + this.salary);
+	}
+}
+
+
+
+public class Day4_2 {
+
+	public static void main(String[] args) {
+		employee e1= new employee();
+		e1.display();
+		
+
+	}
+
+}

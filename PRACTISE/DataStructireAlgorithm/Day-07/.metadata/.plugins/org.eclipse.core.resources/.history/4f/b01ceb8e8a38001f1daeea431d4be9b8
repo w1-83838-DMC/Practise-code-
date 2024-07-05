@@ -1,0 +1,57 @@
+package com.sunbeam;
+
+public class List3 {
+	static class Node{
+		private int data;
+		private Node next;
+		private Node prev;
+		public Node(int value)
+		{
+			data=value;
+			next=prev=null;
+		}
+	}
+	
+	private Node head;
+	public List3()
+	{
+		head=null;
+	}
+	public boolean isEmpty(){
+		return head==null;
+	}
+	
+	public void add(Node before,Node after,Node newnode)
+	{
+		newnode.prev=after;
+		newnode.next=before;
+		before.prev=newnode;
+		after.next=newnode;
+	}
+	public void addFirst(int value)
+	{
+		// create Node 
+		Node newnode=new Node(value);
+		// if empty
+		if(head==null)
+		{
+			// addnewnode into head 
+			head=newnode;
+			head=newnode.next=newnode.prev;	
+		}else 
+		{
+			add(head,head.prev,newnode);
+			head=newnode;
+		}
+	}
+	public void display()
+	{
+		Node trav=head;
+		do {
+			System.out.print(" "+ trav.data);
+			trav=trav.next;
+		}while(trav!=head);
+	}
+
+
+}

@@ -1,0 +1,34 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class LinearQueueMain {
+	public static void main(String[] args) {
+		Queue q= new Queue(4);
+		Scanner sc= new Scanner(System.in);
+		int choice=0;
+		do {
+			System.out.println("0.Exit \n1.Push \n2.Pop \n3.peek");
+			System.out.println("Enter choice");
+			Scanner sc= new Scanner(System.in);
+			choice=sc.nextInt();
+			
+			while(choice)
+			{
+				case 1: 
+					if(q.isFull())
+					{
+						System.out.println("Queue is fulll");
+					}else 
+					{
+						System.out.println("Enter value to be inserted ");
+						int value= sc.nextInt();
+						q.push(value);
+					}
+					break;
+			}
+			
+		}while(choice!=0);
+	}
+
+}

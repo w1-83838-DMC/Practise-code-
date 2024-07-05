@@ -1,0 +1,9 @@
+/* Valid and invalid decleration of an array*/
+public class Day5_7 {
+	public static void main(String[] args) {
+//		int a1[]= new int[5];
+//		int a[]=null;
+		int a[]= new int [-6];
+	}
+
+}

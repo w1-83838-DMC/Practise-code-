@@ -1,0 +1,65 @@
+package com.sunbeam;
+
+public class List1 {
+	static class Node{
+		private char data;
+		private Node next;
+		public Node(char value)
+		{
+			data=value;
+			next=null;
+		}
+	}
+	private Node head;
+	private Node tail;
+	private int count;
+	public List1()
+	{
+		head=tail=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null && tail==null;
+	}
+	public void addFirst(char value) {
+		//1. create node
+		Node newnode = new Node(value);
+		//2. if empty
+		if(isEmpty()) {
+			//a. add newnode into head and tail
+			head = tail = newnode;
+			//b. make list circular
+			newnode.next = newnode;
+		}
+		//3. if not empty
+		else {
+			//a. add first node into next of newnode
+			newnode.next = head;
+			//b. add newnode into next of last node
+			tail.next = newnode;
+			//c. move head on newnode
+			head = newnode;
+			
+		}
+		//4. increment count
+		count++;
+	}
+	
+	public void display()
+	{
+		// if list is empty 
+		if(isEmpty())
+			return;
+		System.out.println("List :: ");
+		// create trav at start first node 
+		Node trav=head;
+		do {
+			// visit print current data 
+			System.out.println(" "+ trav.data);
+			// go to next step 
+			trav=trav.next;
+		}while(trav!=head);
+		
+	}
+
+}

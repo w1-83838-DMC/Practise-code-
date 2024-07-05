@@ -1,0 +1,11 @@
+/* static filed is initialized at the time of decleration (followd)  it is shared among all the object of the class it maintain its state (PERSISITANCE PROPERTY) whoever is update the value last that value is maintained(retain*/
+class test
+{
+	
+}
+
+
+public class Day5_1 {
+	
+
+}

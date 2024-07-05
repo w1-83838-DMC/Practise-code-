@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_weight="0.3"
+        android:id="@+id/imageView"
+        android:src="@drawable/dac"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"/>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="25dp"
+            android:text="Course Name"
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/textFees"
+            android:text="Fees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="5dp"/>
+</LinearLayout>

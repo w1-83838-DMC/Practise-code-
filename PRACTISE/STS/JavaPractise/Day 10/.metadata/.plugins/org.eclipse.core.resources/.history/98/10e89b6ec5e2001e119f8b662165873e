@@ -1,0 +1,46 @@
+//import java.util.Scanner;
+//
+//public class Day10_5 
+//{
+//	public static void main(String[] args) {
+//		Scanner sc= new Scanner(System.in);
+//		int n1;
+//		int n2;
+//		int res;
+//		System.out.println("Enter first Element ");
+//		n1=sc.nextInt();
+//		System.out.println("Enter Second Element ");
+//		n2=sc.nextInt();
+//		
+//		res= n1/n2;
+//		System.out.println("Result "+ res);
+//		
+//	}
+//
+//}
+
+import java.util.Scanner;
+
+public class Day10_5
+{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int n1;
+		int n2;
+		int res;
+		System.out.println("Enter First Element : ");
+		n1=sc.nextInt();
+		System.out.println("Enter Second Element: ");
+		n2=sc.nextInt();
+		try
+		{
+			res= n1/n2;
+			System.out.println("Result = "+ res);
+		}catch(Exception e)
+		{
+			
+			
+		}
+		
+	}
+}

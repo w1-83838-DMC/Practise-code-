@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+class product
+{
+	private int pid;
+	private String name;
+	private String compamyname;
+	private String location;
+	
+	product() // parameterless constructor
+	{
+		this.pid=123;
+		this.name="Ajay";
+		this.compamyname="SUNBEAM";
+		this.location="Akurdi";
+		
+	} 
+	product(int pid, String name, String companyname, String location) // parameterized constructor
+	{
+		this.pid=pid;
+		this.name=name;
+		this.compamyname=companyname;
+		this.location=location;
+	}
+	void display()
+	{
+		System.out.println("product id = " + pid + "product name = " + name + "companyname = " + compamyname + "Location = "+ location);
+	}
+	
+}
+public class Day3_13 
+{
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		product p1=new product();
+		p1.display();
+	}
+
+	
+	
+
+}

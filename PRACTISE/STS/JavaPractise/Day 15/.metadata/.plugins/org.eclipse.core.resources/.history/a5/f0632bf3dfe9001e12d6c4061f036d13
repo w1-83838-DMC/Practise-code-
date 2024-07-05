@@ -1,0 +1,6 @@
+// method reference to the static method of the class
+// BiFunction is a predefined Functional Interface
+// it is used to perform mathematical  calculations
+public class test {
+
+}

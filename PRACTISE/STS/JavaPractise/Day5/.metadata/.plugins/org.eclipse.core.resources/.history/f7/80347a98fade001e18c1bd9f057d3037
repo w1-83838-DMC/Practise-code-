@@ -1,0 +1,39 @@
+public class Day5_4 {
+	static int num1;// static filed
+	static int num2; // static filed 
+	// static intializer block
+	static
+	{
+		num1=190;
+		num2=100;
+	}
+	void add()
+	{
+		System.out.println("Addition of num1 and num2 " + (num1 + num2 ));
+	}
+	void sub()
+	{
+		System.out.println("Substraction of num1 and num2 " + (num1 - num2));
+	}
+	void mul()
+	{
+		System.out.println("Multiplication of num1 and num2 " + (num1 * num2));
+	}
+	void div()
+	{
+		System.out.println("Division of num1 and num2 " + (num1 / num2));
+	}
+	
+	public static void main(String[] args) {
+		
+		Day5_4 dobj= new Day5_4();
+		dobj.add();
+		dobj.sub();
+		dobj.mul();
+		dobj.div();
+		
+	
+	}
+	
+	
+}

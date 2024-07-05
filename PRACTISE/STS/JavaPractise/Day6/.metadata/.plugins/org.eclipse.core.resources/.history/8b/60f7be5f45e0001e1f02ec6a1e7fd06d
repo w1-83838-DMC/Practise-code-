@@ -1,0 +1,55 @@
+//import java.util.Scanner;
+//
+//public class Day6_6 {
+//
+//	public static void main(String[] args) 
+//	{
+//		int a1[][]= new int[4][3];
+//		Scanner sc= new Scanner(System.in);
+//		for(int i=0; i<4; i++)
+//		{
+//			for(int j=0; j<3; j++)
+//			{
+//				System.out.println("Enter the Array : ");
+//				a1[i][j]=sc.nextInt();
+//			}
+//		}
+//		for(int row[]: a1)
+//		{
+//			for(int col: row)
+//			{
+//				System.out.print(col + "\t");
+//			}
+//		System.out.println();
+//		}
+//		
+//	}
+//
+//}
+/* Column size of each row is diffrent*/
+/*
+class Day6_6
+{
+	public static void main(String[] args) {
+		int arr[][]= new int[3][];
+		arr[0]=new int [2];
+		arr[1]=new int [3];
+		arr[2]=new int [4];
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
+		System.out.println(arr[2]);
+	}
+}
+*/
+// intialization of ragged array
+
+class Day6_6
+{
+	public static void main(String[] args) {
+		int arr[][]= new int[4][];// ragged array
+		arr[0]= new int []{10,20};
+		System.out.println(arr[0]);
+		
+		
+	}
+}

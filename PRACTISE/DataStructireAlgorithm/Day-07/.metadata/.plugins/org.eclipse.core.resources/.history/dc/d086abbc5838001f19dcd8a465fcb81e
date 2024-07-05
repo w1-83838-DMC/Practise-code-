@@ -1,0 +1,105 @@
+package com.sunbeam;
+
+public class List1 {
+	static class Node{
+		private int data;
+		private Node next;
+		public Node(int value)
+		{
+			data=value;
+			next=null;
+		}
+	}
+	private Node head;
+	private Node tail;
+	private int count;
+	public List1()
+	{
+		head=tail=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null && tail==null;
+	}
+//	public void addNewnode(char value)
+//	{
+//		// create Node 
+//		Node newnode = new Node(value);
+//		// if empty 
+//		if(head==null && tail==null)
+//		{
+//			// add newnode into head and tail 
+//			head=tail=newnode;
+//			// make list circular 
+//			newnode.next=newnode;
+//		}// if not empty 
+//		else 
+//		{
+//			//Add first node into next of newnode 
+//			newnode.next=head;
+//			// add newnode into next of last node 
+//			tail.next=newnode;
+//			// move head on newnode 
+//			head=newnode;
+//		}
+//	}
+	public void addFirst(char value) {
+		//1. create node
+		Node newnode = new Node(value);
+		//2. if empty
+		if(isEmpty()) {
+			//a. add newnode into head and tail
+			head = tail = newnode;
+			//b. make list circular
+			newnode.next = newnode;
+		}
+		//3. if not empty
+		else {
+			//a. add first node into next of newnode
+			newnode.next = head;
+			//b. add newnode into next of last node
+			tail.next = newnode;
+			//c. move head on newnode
+			head = newnode;
+			
+		}
+		//4. increment count
+		count++;
+	}
+
+	public void display() {
+		//0 if list is empty
+		if(isEmpty())
+			return;
+		System.out.print("List : ");
+		//1. create trav and start at first node
+		Node trav = head;
+		do {
+			//2. visit/print current node
+			System.out.print(" " + trav.data);
+			//3. go on next node
+			trav = trav.next;
+		}while(trav != head);//4. repeat step 2 and 3 till last node
+		System.out.println("\nNode count : " + count);
+		System.out.println("last node : " + tail.data);
+	}
+	
+	
+//	public void display()
+//	{
+//		// if list is empty 
+//		if(isEmpty())
+//			return;
+//		System.out.println("List :: ");
+//		// create trav at start first node 
+//		Node trav=head;
+//		do {
+//			// visit print current data 
+//			System.out.println(" "+ trav.data);
+//			// go to next step 
+//			trav=trav.next;
+//		}while(trav!=head);
+//		
+//	}
+
+}

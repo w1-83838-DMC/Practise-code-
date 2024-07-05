@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+public class SinglyLinearLinkedList {
+
+	public static void main(String[] args) {
+		
+		List l1= new List();
+		l1.addfirst(40);
+		l1.display();
+		
+	
+		
+
+	}
+
+}

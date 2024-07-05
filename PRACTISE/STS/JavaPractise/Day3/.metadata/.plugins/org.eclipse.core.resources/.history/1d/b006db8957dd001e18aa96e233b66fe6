@@ -1,0 +1,31 @@
+// private filed 
+
+/* Method of the class can access the filed of the class directly*/
+class Employee
+{
+	private int empid;
+	private float salary;
+	
+	Employee()  // parameterless constructor
+	{
+		this.empid=83839;
+		this.salary=100000;
+	}
+	Employee(int empid, float salary) // parameterized constructor
+	{
+		this.empid=empid;
+		this.salary=salary;
+	}
+	void display()
+	{
+		System.out.println("employee id "+ this.empid + "Employee salary " + this.salary);
+	}
+}
+
+public class Day3 {
+	public static void main(String[] args) {
+		Employee e1= new Employee(83838,95000);
+		e1.display();
+	}
+
+}

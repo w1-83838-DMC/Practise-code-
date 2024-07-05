@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Day2_10 {
+	public static void main(String[] args) 
+	{
+		System.out.println("Enter the OS Marks ");
+		int OS;
+		System.out.println("Enter the C Marks");
+		int C;
+		System.out.println("Enter the CPP Marks");
+		int CPP;
+		System.out.println("Enter the JAVA Marks");
+		int JAVA;
+		System.out.println("Enter the SQL Marks");
+		int SQL;
+		Scanner sc= new Scanner(System.in);
+		OS=sc.nextInt();
+		C=sc.nextInt();
+		CPP=sc.nextInt();
+		SQL=sc.nextInt();
+		
+		int Average=(OS+C+CPP+SQL)/5;
+		System.out.println("The Average marks of 5 Subject is "+Average);
+		sc.close();
+		
+	
+		
+	}
+
+}

@@ -1,0 +1,64 @@
+package com.sunbeam;
+
+public class List {
+	static class Node{
+		private int data;
+		private Node next;
+		public Node(int value)
+		{
+			data=value;
+			next=null;
+		}
+		
+	}
+	private Node head;
+	public List()
+	{
+		head=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	public void addfirst(int value)
+	{
+		// create node for given data 
+		Node newnode= new Node(value);
+		// add first node into next of newnode 
+		newnode.next=head;
+		// move head on newnode 
+		head= newnode;
+	}
+	public void deleteLast()
+	{
+		// if list is empty 
+		if(isEmpty())
+			return;
+		// if list has single node 
+		else if(head.next==null)
+			head=null;
+		// if list has multiple 
+		else
+		{
+			// traverse till second last node 
+			Node trav=head;
+			while(trav.next.next!=null)
+				trav=trav.next;
+			// add null into next of second last node 
+			trav.next=null;
+		}
+	}
+	public void deletefirst()
+	{
+		// if list is empty 
+		if(head==null)
+		{
+			return;
+		}else 
+		{
+			// move head on seconde node 
+			head=head.next;
+		}
+	}
+
+}

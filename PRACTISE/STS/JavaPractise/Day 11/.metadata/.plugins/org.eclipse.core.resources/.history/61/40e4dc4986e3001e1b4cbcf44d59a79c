@@ -1,0 +1,18 @@
+class Demo
+{
+	T num; // filed of a class
+	Demo() // parameterless Constructor
+	{
+		
+	}
+	Demo(T num) // parameterized Constructor
+	{
+		this.num=num;
+		
+	}
+}
+
+
+public class Day11_6 {
+
+}

@@ -1,0 +1,97 @@
+package com.sunbeam;
+
+public class List1 {
+	static class Node{
+		private char data;
+		private Node next;
+		public Node(char value)
+		{
+			data=value;
+		}
+	}
+	private Node head;
+	private Node tail;
+	public List1()
+	{
+		head=null;
+		tail=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null && tail==null;
+	}
+	public void addFirst(char value)
+	{
+		// create node 
+		Node newnode= new Node(value);
+		// if list is empty 
+		if(isEmpty())
+		{
+			// add newnode into head and tail 
+			head=tail=newnode;
+			// make list circular
+			newnode.next=head;
+		}else 
+		{
+			// add first node into newnode of next 
+			newnode.next=head;
+			// addnewnode into next of lastnode 
+			tail.next=newnode;
+			// move head on newnode
+			head=newnode;
+		}
+	}
+	public void display()
+	{
+		// if list is empty 
+		if(head==null && tail==null)
+			return;
+		Node trav=head;
+		do {
+			System.out.println(" "+ trav.data);
+			trav=trav.next;
+		}while(trav!=head);
+	}
+	public void addLast(char value)
+	{
+		// create Node 
+		Node newnode= new Node(value);
+		if(isEmpty()) // if list is empty 
+		{
+			head=tail=newnode;
+			newnode.next=newnode;	
+		// if not empty 
+		}else // if list is not empty  
+		{
+			// add first node into next of newnode 
+			newnode.next=head;
+			// add newnode into next of last node 
+			tail.next=newnode;
+			// move tail on newnode 
+			tail=newnode;
+		}
+	}
+	public void addposition(char value, int pos)
+	{
+		// create Node 
+		Node newnode= new Node(value);
+		// if list is empty 
+		if(head==null && tail==null)
+		{
+			head=tail=newnode;
+			// make list circular 
+			newnode.next=head;
+		}else // if list is not empty 
+		{
+			Node trav =head;
+			for(int i=1; i<pos-1; i++)
+			{
+				trav=trav.next;
+			}
+			newnode.next=trav.next;
+			trav.next=newnode;
+			
+		}
+		
+	}
+}

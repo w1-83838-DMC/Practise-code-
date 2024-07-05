@@ -1,0 +1,8 @@
+// lamda expression
+
+public class Day15_1
+{
+	public static void main(String[] args) {
+		List<Integer>l1= new List<Integer>();
+	}
+}

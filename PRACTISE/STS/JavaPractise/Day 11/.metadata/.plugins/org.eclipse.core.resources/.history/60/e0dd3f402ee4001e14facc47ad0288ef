@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public static void AccepectIntData(ArrayList<Integer>alist)
+{
+	
+}
+
+public class Day11_13 {
+	public static void main(String[] args) {
+		ArrayList<Integer>a1= new ArrayList<Integer>();
+		ArrayList<Float>a2= new ArrayList<Float>();
+		ArrayList<Double>a3= new ArrayList<Double>();
+		ArrayList<String>a4= new ArrayList<String>();
+		
+		AccepctIntData(a1);
+	}
+
+}

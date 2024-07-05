@@ -1,0 +1,31 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class DoublyLinearLinkedMain {
+	public static void main(String[] args) {
+		List2 list2= new List2();
+		Scanner sc= new Scanner(System.in);
+		System.out.println("1. AddFirst 2.Display ");
+		int choice=0;
+		do {
+			choice=sc.nextInt();
+			switch(choice)
+			{
+				case 1: 
+					list2.addfirst(23);
+					list2.addfirst(56);
+					list2.addfirst(78);
+					list2.addfirst(65);
+					break;
+				case 2: 
+					list2.display();
+					break;
+
+			}
+			
+		}while(choice!=0);
+	}
+	
+
+}

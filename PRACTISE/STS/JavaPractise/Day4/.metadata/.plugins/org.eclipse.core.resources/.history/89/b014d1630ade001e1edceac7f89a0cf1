@@ -1,0 +1,39 @@
+/*equals is overridden inside the student class  generally if we override equals() method we override hashcode()  We write the logic for comparing the Content inside the object   */
+
+
+
+class student
+{
+	int rollno;
+	int marks;
+	
+	student()
+	{
+		this.rollno=83838;
+		this.marks=987;
+	}
+	public String toString()
+	{
+		return " Rollno = " + this.rollno + " Marks = "+ this.marks;
+	}
+	
+}
+
+public class Day4_5 {
+
+	public static void main(String[] args) 
+	{
+		student s1= new student();
+		student s2=s1;
+		student s3= new student();
+		System.out.println(" s1==s2 "+(s1==s2));
+		System.out.println(" s3.equals(s2)"+s3.equals(s2));
+		System.out.println(s1);
+		
+		
+		
+		
+		
+	}
+
+}

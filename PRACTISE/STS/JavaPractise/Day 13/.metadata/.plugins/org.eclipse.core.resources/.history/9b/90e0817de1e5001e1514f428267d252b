@@ -1,0 +1,50 @@
+
+// user define data type hashset
+import java.util.HashSet;
+import java.util.Objects;
+class student
+{
+	String name;
+	student()
+	{
+		
+	}
+	student(String name)
+	{
+		this.name=name;
+		
+	}
+	public String toString()
+	{
+		return "Name: "+this.name;
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(name);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		student other = (student) obj;
+		return Objects.equals(name, other.name);
+	}
+	
+	
+}
+public class Day13_2 {
+	public static void main(String[] args) {
+		HashSet<Student> hs= new HashSet<Student>();
+		student s1= new student("abc");
+		student s2= new student("pqr");
+		student s3= new student("xyz");
+		hs.add(s1);
+		
+		
+	}
+
+}

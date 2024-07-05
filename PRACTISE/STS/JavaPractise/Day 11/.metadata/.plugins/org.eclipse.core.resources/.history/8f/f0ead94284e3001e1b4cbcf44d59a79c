@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class AgeException extends Exception
+{
+	AgeException()
+	{
+		System.out.println();
+	}
+}
+
+
+public class Day11_5 {
+	public static void main(String[] args) {
+		
+	Scanner sc= new Scanner(System.in);
+	try {
+	int age = sc.nextInt();
+		
+	System.out.println(" Age "+age);
+		
+	if(age<18)
+	{
+		throw new AgeException("Invalid age");
+	}
+	else
+	{
+		System.out.println("Age is in Range ");
+	}
+	}catch(AgeException e)
+	{
+		
+	}
+
+}

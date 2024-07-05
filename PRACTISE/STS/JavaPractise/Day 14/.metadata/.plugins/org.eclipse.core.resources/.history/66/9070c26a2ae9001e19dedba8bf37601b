@@ -1,0 +1,13 @@
+// .class file
+// getClass()
+// forName()
+class Demo
+{
+	
+}
+public class Test {
+	public static void main(String[] args) {
+		class c=Demo.class;
+	}
+
+}

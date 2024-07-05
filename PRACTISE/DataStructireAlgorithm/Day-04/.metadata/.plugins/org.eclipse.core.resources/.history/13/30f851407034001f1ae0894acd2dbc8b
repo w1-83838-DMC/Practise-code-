@@ -1,0 +1,11 @@
+package com.sunbeam;
+
+public class SinglyCircularLinkedListMain {
+	public static void main(String[] args) {
+	
+		List l1= new List();
+		l1.addposition('B', 1);
+		l1.display();
+		
+	}
+}

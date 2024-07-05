@@ -1,0 +1,20 @@
+// can we define a method in the interface
+// Yes but we shall make that method compulsory as static 
+// we can call that defined method by using Interafacename.methodname()
+interface test
+{
+	public void cal();  // Only Decleration
+	
+	
+}
+class Demo implements test
+{
+	
+	
+}
+public class Day14_11
+{
+	public static void main(String[] args) {
+		
+	}
+}

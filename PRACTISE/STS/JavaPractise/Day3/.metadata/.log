@@ -1,0 +1,1159 @@
+!SESSION 2024-03-07 13:17:58.232 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 13:17:59.568
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 13:17:59.798
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 13:18:11.685
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-07 13:18:12.911
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-07 13:18:12.911
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2024-03-07 18:04:38.669 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 18:04:40.392
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 18:04:40.580
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 18:04:56.045
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-07 18:04:57.297
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-07 18:04:57.297
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2024-03-07 20:24:55.978 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 20:24:57.784
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 20:24:58.041
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 20:25:05.376
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-07 20:25:06.620
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-07 20:25:06.620
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 20:28:48.281
+!MESSAGE Classpath changed for project: Day3_1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-07 20:28:59.287
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709823539287
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 20:28:59.287
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-07 20:28:59.289
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4089
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-03-07 20:42:51.948
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-03-07 20:48:32.829
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-03-07 20:48:32.842
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 20:48:32.849
+!MESSAGE Classpath changed for project: Day3_1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 20:48:37.133
+!MESSAGE Classpath changed for project: Day3_1
+!SESSION 2024-03-07 21:36:28.163 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 21:36:30.310
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 21:36:30.505
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-03-07 21:36:33.524
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-07 21:36:33.919
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-07 21:36:35.152
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-07 21:36:35.152
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-07 21:36:37.022
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709827597022
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 21:36:37.023
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-07 21:36:37.034
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2666
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 21:53:35.358
+!MESSAGE Classpath changed for project: Day3_1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-07 21:53:48.100
+!MESSAGE Classpath changed for project: Day3_2
+!SESSION 2024-03-08 07:33:23.031 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 07:33:24.784
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 07:33:24.992
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 07:33:37.429
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 07:33:38.822
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 07:33:38.822
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 07:33:40.635
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709863420634
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 07:33:40.635
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 07:33:40.645
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2672
+
+!ENTRY Activator 4 0 2024-03-08 07:34:46.841
+!MESSAGE NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel$2.bundleChanged(LocalBootDashModel.java:157)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:949)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SESSION 2024-03-08 07:38:49.680 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 07:38:53.282
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 07:38:53.706
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 07:38:58.924
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 07:39:01.198
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 07:39:01.198
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 07:39:04.547
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709863744546
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 07:39:04.548
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 07:39:04.564
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3828
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-03-08 07:39:26.448
+!MESSAGE An internal error occurred during: "Update Job".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.osgi.service.datalocation.Location.getURL()" because "installLocation" is null
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.updateRoamingProfile(SimpleProfileRegistry.java:165)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.updateSelfProfile(SimpleProfileRegistry.java:155)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileMap(SimpleProfileRegistry.java:386)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfile(SimpleProfileRegistry.java:263)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfile(SimpleProfileRegistry.java:192)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler$1.run(AutomaticUpdateScheduler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-03-08 13:05:02.567 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 13:05:04.067
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 13:05:04.285
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 13:05:17.682
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 13:05:18.793
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 13:05:18.793
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 13:05:20.333
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709883320332
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 13:05:20.333
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 13:05:20.343
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2742
+
+!ENTRY org.eclipse.ui 4 0 2024-03-08 14:03:48.561
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1550)
+	at org.eclipse.swt.widgets.Display.checkDevice(Display.java:1000)
+	at org.eclipse.swt.widgets.Display.getShells(Display.java:2759)
+	at org.eclipse.swt.custom.BusyIndicator.clearBusyCursor(BusyIndicator.java:187)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1418)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1394)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2839)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5854)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5846)
+	at org.eclipse.swt.widgets.Display$SessionManagerListener.isReadyToExit(Display.java:213)
+	at org.eclipse.swt.internal.SessionManagerDBus.queryReadyToExit(SessionManagerDBus.java:272)
+	at org.eclipse.swt.internal.SessionManagerDBus.handleQueryEndSession(SessionManagerDBus.java:283)
+	at org.eclipse.swt.internal.SessionManagerDBus.g_signal_handler(SessionManagerDBus.java:321)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4513)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+!SESSION 2024-03-08 14:43:18.852 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 14:43:20.921
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 14:43:21.164
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 14:43:35.465
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 14:43:36.716
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 14:43:36.716
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 14:43:38.546
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709889218545
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 14:43:38.546
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 14:43:38.557
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3036
+!SESSION 2024-03-08 15:31:21.479 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 15:31:24.924
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 15:31:25.316
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 15:31:28.429
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 15:31:29.675
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 15:31:29.675
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 15:31:31.505
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709892091504
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 15:31:31.505
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 15:31:31.514
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2786
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 15:39:53.606
+!MESSAGE Classpath changed for project: Day3_3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 15:40:17.359
+!MESSAGE Classpath changed for project: Day3_2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-03-08 15:43:39.498
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 4 0 2024-03-08 15:47:14.348
+!MESSAGE NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel$2.bundleChanged(LocalBootDashModel.java:157)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:949)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-03-08 15:55:06.650
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 15:55:06.658
+!MESSAGE Classpath changed for project: Day3_3
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 15:55:22.937
+!MESSAGE Classpath changed for project: Day3_4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 16:06:57.565
+!MESSAGE Classpath changed for project: Day3_4
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 16:07:15.874
+!MESSAGE Classpath changed for project: Day3_5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 16:16:00.358
+!MESSAGE Classpath changed for project: Day3_5
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 16:16:09.717
+!MESSAGE Classpath changed for project: Day3_6
+!SESSION 2024-03-08 16:46:19.081 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 16:46:20.848
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 16:46:21.092
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 16:46:39.060
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 16:46:40.361
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 16:46:40.361
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 16:46:42.171
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709896602170
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 16:46:42.171
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 16:46:42.181
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2721
+
+!ENTRY Activator 4 0 2024-03-08 16:52:53.728
+!MESSAGE NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel$2.bundleChanged(LocalBootDashModel.java:157)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:949)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.debug.core 4 125 2024-03-08 17:04:55.678
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:249)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 17:04:55.692
+!MESSAGE Classpath changed for project: Day3_6
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 17:05:15.708
+!MESSAGE Classpath changed for project: Day3_7
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 17:21:27.471
+!MESSAGE Classpath changed for project: Day3_7
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 17:21:33.408
+!MESSAGE Classpath changed for project: Day3_7
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 17:27:38.377
+!MESSAGE Classpath changed for project: Day3_7
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 17:28:01.720
+!MESSAGE Classpath changed for project: Day3_8
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-03-08 17:36:38.084
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-03-08 17:38:27.187
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+class Employee
+{
+	/*By default empid and salary will give package level visibility*/
+	int empid;
+	float salary;
+	Employee()
+	{
+		this.empid=83838;
+		this.salary=15000;	
+	}
+	Employee()
+	void display()
+	{
+		System.out.println(" Employee id :- "+ this.empid + " Employee Salary:-  " + this.salary);
+	}
+}
+public class Day3_8 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1= new Employee(); // parameterless constructor gets called automatically
+		Employee e2= new Employee(87900,12000);
+		
+
+	}
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3403)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3439)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1521)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:603)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:170)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1326)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2024-03-08 17:38:27.188
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3403)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3439)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1521)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:603)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:170)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1326)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2024-03-08 17:38:27.188
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3403)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:725)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3439)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1521)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:603)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:572)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1149)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:170)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:808)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1326)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+!SESSION 2024-03-08 19:52:55.810 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 19:52:57.861
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 19:52:58.070
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 19:53:00.424
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 19:53:01.717
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 19:53:01.717
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 19:53:03.486
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709907783486
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 19:53:03.487
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 19:53:03.495
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2677
+
+!ENTRY Activator 4 0 2024-03-08 19:54:05.958
+!MESSAGE NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel$2.bundleChanged(LocalBootDashModel.java:157)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:949)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SESSION 2024-03-08 20:12:49.795 -----------------------------------------------
+eclipse.buildId=4.21.1.202402070844
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-08 20:12:51.166
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 20:12:51.412
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-03-08 20:12:55.128
+!MESSAGE Logback config file: /home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.2.1.20231030-1438.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-03-08 20:12:56.324
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-03-08 20:12:56.324
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 20:12:57.932
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.10.v20240120-1143/jre/bin/java
+-cp
+/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/home/ajay/Desktop/spring-tool-suite-4-4.21.1.RELEASE-e4.30.0-linux.gtk.x86_64/sts-4.21.1.RELEASE/plugins/org.springframework.tooling.boot.ls_1.52.0.202401312010/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ajay/Desktop/PRACTISE/STS/Day3/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1709908977931
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 20:12:57.933
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-03-08 20:12:57.943
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3853
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 20:15:49.911
+!MESSAGE Classpath changed for project: Day3_8
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 20:16:02.272
+!MESSAGE Classpath changed for project: Day3_9
+
+!ENTRY Activator 4 0 2024-03-08 20:21:22.106
+!MESSAGE NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.core.LiveSetVariable.getValue()" because "this.this$0.applications" is null
+	at org.springframework.ide.eclipse.boot.dash.model.LocalBootDashModel$2.bundleChanged(LocalBootDashModel.java:157)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:949)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-03-08 20:22:42.108
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-03-08 20:23:45.527
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 20:41:19.396
+!MESSAGE Classpath changed for project: Day3_9
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 20:41:29.747
+!MESSAGE Classpath changed for project: Day3_10
+
+!ENTRY org.eclipse.ui 4 0 2024-03-08 21:07:03.397
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:565)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:480)
+	at org.eclipse.swt.widgets.Control.redraw(Control.java:4685)
+	at org.eclipse.swt.widgets.Link.gtk_event_after(Link.java:459)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2497)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6883)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6162)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1597)
+	at org.eclipse.swt.internal.gtk3.GTK3.gtk_main_iteration_do(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4513)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 21:17:13.069
+!MESSAGE Classpath changed for project: Day3_10
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 21:17:20.926
+!MESSAGE Classpath changed for project: Day3_11
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 21:44:39.389
+!MESSAGE Classpath changed for project: Day3_11
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 21:44:51.624
+!MESSAGE Classpath changed for project: Day3_12
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 21:57:44.806
+!MESSAGE Classpath changed for project: Day3_12
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 21:58:02.662
+!MESSAGE Classpath changed for project: Day3_13
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-03-08 22:10:11.439
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-03-08 22:35:17.565
+!MESSAGE Classpath changed for project: Day3_13

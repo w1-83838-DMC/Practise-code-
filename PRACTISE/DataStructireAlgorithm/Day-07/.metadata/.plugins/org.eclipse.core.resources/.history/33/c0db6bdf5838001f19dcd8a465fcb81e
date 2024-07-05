@@ -1,0 +1,29 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class SinglyCircularLikedList {
+	public static void main(String[] args) {
+		List1 list1=new List1();
+		Scanner sc= new Scanner(System.in);
+		int choice=0;
+		do {
+			System.out.println("0.Exit\n 1.Addnewnode\n 2.Display");
+			choice=sc.nextInt();
+			
+			switch(choice)
+			{
+				case 1: 
+					list1.addFirst('A');
+					list1.addFirst('B');
+					list1.addFirst('C');
+					break;
+				case 2: 
+					list1.display();
+				
+			}
+			
+		}while(choice!=0);
+	}
+
+}

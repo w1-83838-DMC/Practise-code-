@@ -1,0 +1,75 @@
+// read and write a single byte from binary file
+
+// read  -> InputStream
+// Write -> OutputStream
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.File;
+import java.util.Scanner;
+
+public class Day13_8 {
+	
+	static Scanner sc= new Scanner(System.in);
+	static String fname="File.dat";
+	
+	public static void readRecord() 
+	{
+		
+		FileInputStream fp = null;
+		try {
+			fp= new FileInputStream(new File(fname));
+			byte value=(byte)fp.read();
+			System.out.println("Values read from the file "+ value);
+			fp.close();
+		
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+			
+		}
+		
+	}
+	
+	public static void WriteRecord()
+	{
+		// Write-> FileOutputStream
+		FileOutputStream fo= null;
+			byte data =123;
+			try {
+				FileOutputStream fi= new FileOutputStream(new File(fname));
+				fi.write(data);
+				System.out.println("Data is Written inside the file  ");
+				fi.close();
+			}catch(Exception e)
+			{
+			e.printStackTrace();
+			}
+		
+		}
+	static int menuList()
+	{
+		System.out.println("0.Exit 1. Read 2. Write Please enter Your choice :");
+		return sc.nextInt();
+	}
+	
+	public static void main(String[] args) {
+		int choice;
+		
+		while((choice=menuList())!=0)
+		{
+			switch((choice))
+					{
+					case 1: readRecord();  
+							break;
+			
+					case 2: WriteRecord(); 
+							break;
+			
+		}
+		
+	}
+
+}

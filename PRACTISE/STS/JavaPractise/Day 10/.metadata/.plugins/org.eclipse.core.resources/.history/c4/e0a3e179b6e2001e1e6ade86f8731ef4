@@ -1,0 +1,14 @@
+package p1;
+
+public class abstract shape {
+	int x;
+	int y;
+	
+	
+	abstract void area();
+	
+	
+	
+	
+
+}

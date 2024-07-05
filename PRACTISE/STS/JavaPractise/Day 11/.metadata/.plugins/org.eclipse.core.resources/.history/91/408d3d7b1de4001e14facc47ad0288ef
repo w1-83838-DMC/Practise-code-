@@ -1,0 +1,31 @@
+class Test<T,U>
+{
+	T n1;
+	U n2;
+	
+	Test() // parameterless Constructor
+	{
+		
+	}
+	Test(T n1, U n2)
+	{
+		this.n1=n1;
+		this.n2=n2;
+		
+	}
+	void display()
+	{
+		System.out.println("First Value : "+ this.n1 + "Second Value : " + this.n2);
+	}
+	
+}
+
+
+public class Day11_11 {
+	public static void main(String[] args) {
+		Test<Integer,String> t1= new Test<Integer,String>();
+		t1.display();
+		
+	}
+
+}

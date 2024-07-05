@@ -1,0 +1,24 @@
+/* */
+class Account
+{
+	int balance;
+	
+	void deposit()
+	{
+		balance=balance+3000;
+	}
+	void withdrawl()
+	{
+		balance=balance-500;
+	}
+	
+}
+public class Day5_3 {
+	public static void main(String[] args) {
+		Account a1= new Account();
+		a1.deposit();
+		a1.withdrawl();
+		System.out.println(a1);
+	}
+
+}

@@ -1,0 +1,34 @@
+/*getter and setter method  getter (inspector) setter(Mutable) if we wish to modify the private filed of the object then we write setter and getter These are the member function of the class defined inside the class */
+
+import java.util.Scanner;
+class Employee
+{
+	private int empid;
+	private int salary;
+	
+	Employee() // parameterless constructor
+	{
+		this.empid=83838;
+		this.salary=980000;
+	}
+	void display()
+	{
+		System.out.println("Empid = "+ empid + "Employeesalary = " + salary);
+	}
+	
+	
+}
+
+
+
+public class Day3_9 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Employee e1= new Employee();
+		e1.display();
+		
+
+	}
+
+}

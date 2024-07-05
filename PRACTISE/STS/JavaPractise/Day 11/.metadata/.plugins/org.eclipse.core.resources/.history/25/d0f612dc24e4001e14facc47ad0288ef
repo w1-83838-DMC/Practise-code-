@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Day11_12 {
+	public static void main(String[] args)
+	{
+		ArrayList a= new ArrayList(); // Raw type
+		a.add(10);
+		a.add(20);
+		a.add(30);
+		a.add(40);
+		System.out.println(a);
+		
+		
+		
+	}
+	
+
+}

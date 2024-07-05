@@ -1,0 +1,14 @@
+// .class file
+// getClass()
+// forName()
+class Demo
+{
+	
+}
+public class Test {
+	public static void main(String[] args) {
+		Class c=Demo.class;
+		System.out.println("class name is  "+ c);
+	}
+
+}

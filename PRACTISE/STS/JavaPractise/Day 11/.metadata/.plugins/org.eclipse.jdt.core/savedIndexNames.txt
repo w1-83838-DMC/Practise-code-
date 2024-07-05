@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/ajay/Desktop/PRACTISE/STS/Day 11/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+646308851.index
+3720449864.index

@@ -1,0 +1,13 @@
+interface test
+{
+	public String getname();
+}
+public class Day15_5 
+{
+	public static void main(String[] args)
+	{
+		test tref = ()->{return "Ajay Surse";};
+		System.out.println(tref.getname());
+		
+	}
+}

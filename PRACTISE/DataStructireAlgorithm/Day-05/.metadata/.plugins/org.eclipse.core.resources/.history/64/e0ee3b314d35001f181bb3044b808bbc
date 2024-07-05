@@ -1,0 +1,89 @@
+package com.sunbeam;
+
+public class BsTree {
+	static class Node{
+		private int data;
+		private Node left;
+		private Node right;
+		public Node(int value)
+		{
+			data=value;
+			left=right=null;
+		}
+	}
+	
+	private Node root;// root node 
+	public BsTree() {
+		root=null;
+	}
+	
+	public boolean isEmpty() {
+		return root==null;
+	}
+	
+	public void addNode(int value)
+	{
+		// create node for given data
+		Node newnode= new Node(value);
+		// if Bstree is Empty
+		if(isEmpty())
+		{
+			root=newnode;
+		}
+		else 
+		{
+		// if Bstree is not empty 
+		// create trav reference and start at root 
+		Node trav=root;
+		
+		// if value is less than current node data 
+			if(value <trav.data) {
+				//if left of current node is empty
+				if(trav.left==null)
+				{
+					// addnewnode into left of current node 
+					trav.left=newnode;
+				}// if left of current node is empty 
+				else 
+				{
+					trav=trav.left;
+				}
+				
+			// if value is greater or equal to than current node 
+			}else 
+			{
+				// if right of current node is empty
+				if(trav.right==null)
+				{
+					// add new node into right of current node
+					trav.right=newnode;
+				}else 
+				{
+					trav=trav.right;
+				}
+		}
+		}
+	}
+	
+	public void preorder(Node trav)
+	{
+		if(trav==null)
+			return;
+		System.out.println(" "+ trav.data);
+		preorder(trav.left);  // L
+		preorder(trav.right); // R
+	}
+	public void preorder() {
+		System.out.print("Preorder : ");
+		preorder(root);
+		System.out.println("");
+	}
+		
+	
+	public void deletAll()
+	{
+		root=null;
+	}
+
+
+}

@@ -1,0 +1,22 @@
+package p1;
+
+public abstract class  shape {
+	int x;
+	int y;
+	
+	public shape()
+	{
+		this.x=x;
+		this.y=y;
+	}
+	public String toString()
+	{
+		return "Boundriesshape= x " + this.x + " Y " + this.y;
+	}
+	abstract void area();
+	
+	
+	
+	
+
+}

@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+public class Day11_12 {
+	
+/*
+	public static void main(String[] args)
+	{
+		ArrayList a= new ArrayList(); // Raw type
+		a.add(10);
+		a.add(20);
+		a.add(30);
+		a.add(40);
+		a.add("abcd");
+		System.out.println("Array List contain elements are "+a);
+	
+	}
+}
+*/
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> al= new ArrayList<Integer>();  // generic type parameter
+		al.add(10);
+		al.add(20);
+		al.add(30);
+		al.add(40);
+		//al.add("Ajay"); // its contains only Integer value 
+		//al.addAll("Ajay");
+		
+		
+		
+	}
+}

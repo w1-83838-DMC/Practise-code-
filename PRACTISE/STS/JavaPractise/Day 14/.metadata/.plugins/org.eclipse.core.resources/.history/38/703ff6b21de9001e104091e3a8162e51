@@ -1,0 +1,41 @@
+// Read and write Multiple Bytes from binary file 
+
+import java.io.WriteAbortedException;
+import java.util.Scanner;
+
+public class Day14 {
+	
+	static Scanner sc= new Scanner(System.in);
+	
+	static void ReadData()
+	{
+		
+	}
+	
+	
+	static int menuchoice()
+	{
+		System.out.println("0. Exit 1.Read 2.Write the data on FIle : ");
+		return sc.nextInt();
+				
+	}
+	
+	public static void main(String[] args) {
+		int choice;
+		while((choice=menuchoice())!=0)
+		{
+			switch(choice)
+			{
+				case 1:
+					ReadData();
+					break;
+				case 2:
+					WriteA
+			}
+				
+		}
+		
+	}
+	
+
+}

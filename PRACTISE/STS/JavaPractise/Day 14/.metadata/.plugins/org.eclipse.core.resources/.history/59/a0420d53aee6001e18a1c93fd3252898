@@ -1,0 +1,16 @@
+// Read and write a single byte from text file
+
+public class Day14_4 {
+	
+	Scanner sc=new Scanner(System.in);
+	
+	static int menuchoice()
+	{
+		System.out.println("0.Exit 1. AddData 2.ReadData ");
+		return sc.nextInt();
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

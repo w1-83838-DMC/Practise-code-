@@ -1,0 +1,20 @@
+// serialization and deserialization 
+
+import java.util.Scanner;
+
+public class Day14_3 {
+	
+	static Scanner sc= new Scanner(System.in);
+	static String fname="Demo.dat";
+	
+	static int menuchoice()
+	{
+		System.out.println("0. Exit 1. WriteData 2. ReadData ");
+		return sc.nextInt();
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

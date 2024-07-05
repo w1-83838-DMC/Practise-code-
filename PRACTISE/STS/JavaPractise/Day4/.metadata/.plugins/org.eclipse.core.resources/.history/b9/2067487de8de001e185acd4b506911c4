@@ -1,0 +1,31 @@
+package com.sunbeaminfo.products;
+
+public class laptop {
+	private int serialno;
+	private String brand;
+	private String color;
+	private String battery;
+	
+	
+	laptop()
+	{
+		this.serialno=43678;
+		this.brand="Hp-pavilion";
+		this.color="Silver platinum";
+		this.battery="15000mph";
+		
+	}
+	laptop(int serialno,String brand, String color, String battery) // parameterized constructor
+	{
+		this.serialno=serialno;
+		this.brand=brand;
+		this.color=color;
+		this.battery=battery;
+		
+	}
+	void display()
+	{
+		System.out.println("Serial No is "+ this.serialno + "Brand is "+ this.brand + "Color is " + this.color + "Battery is " + this.battery);
+	}
+
+}

@@ -1,0 +1,9 @@
+interface test
+{
+	public String getname();
+}
+public class test 
+{
+	
+
+}

@@ -1,0 +1,17 @@
+// parseInt() Throws NumberformatException 
+// NumberFormatException belongs to RunTimeexception so it is (Unchecked Exception)
+// it is compulsory to handle this exception at the time of application Development 
+
+
+public class Day11_1
+{
+	public static void main(String[] args) {
+		
+		String str= "12345abcdwf";
+		int num= Integer.parseInt(str);
+		System.out.println("Num"+ num);
+		System.out.println("Str "+ str);
+		
+	}
+	
+}

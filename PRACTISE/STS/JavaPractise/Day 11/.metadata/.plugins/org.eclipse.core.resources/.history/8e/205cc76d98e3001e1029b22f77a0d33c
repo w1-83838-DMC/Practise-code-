@@ -1,0 +1,33 @@
+
+class Demo<T,U>
+{
+	T n1;
+	U n2;
+	
+	Demo()
+	{
+		
+	}
+	Demo(T n1, U n2)
+	{
+		this.n1=n1;
+		this.n2=n2;
+	}
+	void display()
+	{
+		System.out.println("First value "+this.n1 + " Last Value "+this.n2);
+	}
+
+}
+public class Day11_8 {
+	public static void main(String[] args) {
+		Demo<Integer,String> d1= new Demo<Integer,String>(123,"Ajay");
+		Demo<Integer,String> d2= new Demo<Integer,String>(345,"Jay");
+		d1.display();
+		d2.display();
+		
+	
+	}
+	
+
+}

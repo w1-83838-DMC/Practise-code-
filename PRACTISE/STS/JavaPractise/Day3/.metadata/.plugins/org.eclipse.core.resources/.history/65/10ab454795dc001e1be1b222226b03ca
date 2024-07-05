@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class Employee
+{
+	int empid;  // filed of a class 
+	float salary;  // filed of a class
+	
+	void accepctData()
+	{
+		System.out.println("Enter the Employye id and salary : ");
+		Scanner sc= new Scanner(System.in);
+		empid=sc.nextInt();
+		salary=sc.nextFloat();
+		sc.close();
+	}
+	void displayData()
+	{
+		System.out.println("Employee id "+ empid + " Salary "+salary);
+	}
+	
+	
+	
+}
+public class Day3_1
+{
+	public static void main(String[] args) {
+		Employee e1= new Employee();
+		e1.accepctData();// accepctData() is called upon e1 object
+		e1.displayData(); //displaydata() is called upon e2 object
+		
+		Employee e2= new Employee();
+		e2.accepctData();
+		e2.displayData();
+		
+	}	
+}

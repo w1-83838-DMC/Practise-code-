@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class Employee
+{
+	int empid;  // filed of a class 
+	float salary;  // filed of a class
+	
+	void accepctData()
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the Employee id : ");
+		empid=sc.nextInt();
+		System.out.println("Enter the Emloyee Salary : ");
+		salary=sc.nextFloat();
+	}
+	void displayData()
+	{
+		System.out.println("Employee id "+ empid + " Salary "+salary);
+	}
+	
+	
+	
+}
+public class Day3_1
+{
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		e1.accepctData();
+		Employee e2=new Employee();
+		e2.accepctData();
+		e1.displayData();
+		e2.displayData();
+		
+	}	
+}

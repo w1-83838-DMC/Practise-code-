@@ -1,0 +1,25 @@
+package p1;
+
+public class Rectangle extends shape{
+	int l,b;
+	
+	public Rectangle(int l, int b, int x, int y)
+	{
+		super(x,y);
+		this.l=l;
+		this.y=y;
+		System.out.println(l);
+		System.out.println(b);
+				
+	}
+	
+
+	void area()
+	{
+		System.out.println("Area of Rectangle = "+(this.l*this.b));
+	}
+	
+	public String toString() {
+		return " Rectangle [l=" + l + ", b=" + b + "] "+super.toString();
+	}
+}

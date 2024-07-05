@@ -1,0 +1,18 @@
+public class Day4_14 {
+	static void m1()
+	{
+		System.out.println("Inside m1 method ");
+	}
+	static void m2()
+	{
+		System.out.println("Inside m2 method");
+	}
+	public static void main(String[] args) {
+//		Day4_14 dobj=new Day4_14();
+//		dobj.m1();
+//		dobj.m2();
+		Day4_14.m1();
+		Day4_14.m2();
+		
+	}
+}

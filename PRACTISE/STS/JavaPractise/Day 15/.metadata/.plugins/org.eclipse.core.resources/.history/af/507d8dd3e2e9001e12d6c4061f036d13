@@ -1,0 +1,16 @@
+//method reference to a constructor
+
+interface Test
+{
+	Demo disp()
+}
+class Demo
+{
+	public Demo()
+	{
+		
+	}
+}
+public class Day15_9 {
+
+}

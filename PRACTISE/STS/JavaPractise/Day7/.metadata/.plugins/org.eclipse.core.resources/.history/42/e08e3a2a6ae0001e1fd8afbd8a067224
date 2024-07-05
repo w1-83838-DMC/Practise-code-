@@ -1,0 +1,25 @@
+
+enum operations
+	{
+		EXIT,ADD,SUB,MUL,DIV;
+	}
+public class Day7_1{
+	
+	public static void main(String[] args) {
+		//operations op=op.ADD;
+		operations op=op.SUB;
+		switch(op)
+		{
+			case ADD:
+				System.out.println("Additon is "+(22+12));
+				break;
+			case SUB:
+				System.out.println("Substraction is "+ (12-16));
+				break;
+			case MUL:
+				System.out.println("Multiplication is "+ (12*9));
+				break;
+		}
+	}
+
+}

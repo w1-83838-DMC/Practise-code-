@@ -1,0 +1,690 @@
+    1  sudo apt update
+    2  sudo apt-get install lshw
+    3  sudo lshw -C network
+    4  lscpi
+    5  lspci
+    6  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    7  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    8  lsb_release -a
+    9  ls
+   10  cd Downloads
+   11  ls
+   12  sudo dpkg -i code_1.87.0-1709078641_amd64.deb 
+   13  code
+   14  sudo apt update
+   15  sudo apt install gcc g++
+   16  gcc --version
+   17  g++ version
+   18  g++ --version
+   19  gcc Q1.c
+   20  gcc practise.c
+   21  ls
+   22  cd Assignments c
+   23  cd Assignments C
+   24  ls
+   25  GCC practise.c
+   26  gcc practise.c
+   27  clear
+   28  gcc practise.c
+   29  ls
+   30  gcc practise.c
+   31  gcc practise.c
+   32  ./a.out
+   33  gcc practise.c
+   34  ./a.out
+   35  sudo apt-get install openjdk-11-jdk
+   36  vs code
+   37  java --version
+   38  javac Day_01
+   39  javac Day_01.java
+   40  javac Day_01.java
+   41  javac DAY_01.java
+   42  java DAY_01
+   43  java Day_01
+   44  java --version
+   45  javac Day_02
+   46  clear
+   47  javac Day_02.java
+   48  java Day_02
+   49  java Day_01
+   50  javac -d./bin Day_
+   51  java -c Day_02.java
+   52  java Day_01
+   53  java --version
+   54  java c
+   55  java Day_02.java
+   56  java c.class
+   57  javac Day_02.java
+   58  java Day_02
+   59  java C
+   60  java A
+   61  clear
+   62  javac Day_02.java
+   63  clear
+   64  javac Day_02.java
+   65  java Day02
+   66  clear
+   67  javac Day_02
+   68  javac Day_02.java
+   69  clear
+   70  javac Day_02.java
+   71  java Day2
+   72  lear
+   73  clear
+   74  javac -d ./bin Day_02.java
+   75  java D2
+   76  https://github.com/w1-83838-DMC/java-classwork.git
+   77  git clone https://github.com/w1-83838-DMC/java-classwork.git
+   78  git add .
+   79  git commit -m "Day_2 Assignment"
+   80  git status 
+   81  git push
+   82  git add .
+   83  git commit -m "Day-1 Assignment"
+   84  git status
+   85  git push
+   86  git add .
+   87  git commit -m "Adding 15 Assignments of cpp"
+   88  git config --global user.email "ajaysurse1487@gmail.com"
+   89  git config --global user.name "W1_83838_Ajay"
+   90  git push
+   91  git add .
+   92  git commit -m "Cpp Assignment"
+   93  git push
+   94  git clone https://github.com/w1-83838-DMC/CPP-Practice.git
+   95  sudo apt-get update
+   96  sudo apt-get install git
+   97  git clone https://github.com/w1-83838-DMC/CPP-Practice.git
+   98  git add .
+   99  git status
+  100  git commit -m "Assignment 3"
+  101  git push
+  102  git add .
+  103  git commit -m "Day 4 updated"
+  104  git status
+  105  git push
+  106  git clone https://github.com/sunbeam-dmc-march2024/corejava
+  107  git clone https://github.com/w1-83838-DMC/C-preparatory-Assignment.git
+  108  git add .
+  109  git commit -m "Q1 c"
+  110  git push 
+  111  git add .
+  112  git commit -m "question 2"
+  113  git status 
+  114  git push
+  115  git pull
+  116  git clone https://github.com/w1-83838-DMC/java-.git
+  117  git pull
+  118  git clone https://github.com/w1-83838-DMC/java-Assignments-.git
+  119  git add .
+  120  git commit -m "Question 3"
+  121  git push
+  122  add .
+  123  git add .
+  124  git commit -m "Question 2 "
+  125  git push
+  126  git add .
+  127  git commit -m "question 1"
+  128  git push
+  129  git pull
+  130  git add .
+  131  git commit "Assignmet 2"
+  132  git commit -m "Assignment 2"
+  133  git push
+  134  git add .
+  135  git 
+  136  git add .
+  137  git commit -m "Assignment 2"
+  138  git push
+  139  git add .
+  140  git commit -m "Assignment 2 update "
+  141  git push
+  142  git pull
+  143  git add ,
+  144  git add .
+  145  git commit -m "Assinment3 Question2"
+  146  git push
+  147  git add .
+  148  git push
+  149  git add .
+  150  git commit -m "Assignment 3 Question 2"
+  151  git push
+  152  git add.
+  153  git add .
+  154  git commit -m "Assignment 4 Question 1"
+  155  git push
+  156  git add .
+  157  git commit -m "Assignment 4"
+  158  git push 
+  159  git add.
+  160  git add .
+  161  git commit -m "Assignment 4 Question3"
+  162  git push
+  163  git add .
+  164  git commit -m "Assignment 1 Project name Renamed"
+  165  git push
+  166  git add .
+  167  git commit -m "Assignment name Renamed"
+  168  git push
+  169  git add .
+  170  git commit -m "Assignmet 3 Renamed"
+  171  git push
+  172  clear
+  173  git add .
+  174  git commit -m "Assignment 4 Question3"
+  175  git push
+  176  git pull
+  177  git add .
+  178  git commit -m "Assignment Q4 2 updated"
+  179  git push
+  180  git pull
+  181  git pull 
+  182  git pull
+  183  clear
+  184  git add .
+  185  git commit -m "Assignment 5"
+  186  git pull
+  187  git push
+  188  git pull
+  189  git add .
+  190  git commit -m "Assignment 5 Question 3"
+  191  git push
+  192  java --version
+  193  git pull
+  194  java --version
+  195  git add .
+  196  git commit -m "Assignment 5 questio 1 "
+  197  git push
+  198  git add .
+  199  git commit -m "updated"
+  200  git push
+  201  git pull
+  202  git add.
+  203  git add .
+  204  git commit -m "Assignment 7 Q1"
+  205  git push
+  206  git pull
+  207  git add ,
+  208  git add .
+  209  git push
+  210  git add .
+  211  git commit -m "Assignmet 7 Q2"
+  212  git push
+  213  git add .
+  214  git commit -m "Assignment 8 Q2"
+  215  git push
+  216  git add .
+  217  git commit -m "Assignment 8 Q3"
+  218  git push
+  219  git add /
+  220  git add .
+  221  git commit -m "Assignment 8 Q3"
+  222  git add .
+  223  git push
+  224  git add .
+  225  git commit -m "Assignment 8 Q3"
+  226  git commit -m "Assignment8"
+  227  git commit -m 
+  228  git add .
+  229  git commit-m "Assignment 8"
+  230  git commit -m "Assignment 8 Q3"
+  231  git commit -m ""
+  232  git add .
+  233  git commit -m "Assignment 9 Q1"
+  234  git push
+  235  git pull
+  236  git pull 
+  237  git pull
+  238  git add .
+  239  git commit -m "Assignment 9 Question 1"
+  240  git push
+  241  git add .
+  242  git push
+  243  git add .
+  244  git commit -m "Assignment 10 "
+  245  git push
+  246  git add .
+  247  git commit -m "Assignmrnt 10"
+  248  git push
+  249  git add .
+  250  git commit -m "Assignment 10"
+  251  git push
+  252  touch file.txt
+  253  ls
+  254  touch file1.txt file2.txt file3.txt
+  255  ls
+  256  pwd
+  257  git clone https://github.com/sunbeam-dmc-march2024/os
+  258  date
+  259  cal
+  260  sudo apt install ncal
+  261  cal
+  262  cal - y
+  263  cal-y
+  264  cal -y
+  265  cal -y2002
+  266  cal -y 2002
+  267  man cal - manual
+  268  cal -w
+  269  cal - w
+  270  cal -w
+  271  man 
+  272  man cal 
+  273  man 
+  274  man cal
+  275  cal -M
+  276  cal-M
+  277  cal - M
+  278  cal -M
+  279  man cal
+  280  cal -M
+  281  man cal
+  282  cal -m
+  283  man cal
+  284  cal -m 1
+  285  cal -m 4
+  286  mkdir dmc
+  287  clear
+  288  cd dmc
+  289  ls
+  290  ls /
+  291  date 
+  292  cal
+  293  cal -y
+  294  cal -y 2020
+  295  man cal
+  296  cal
+  297  man date 
+  298  pwd
+  299  echo $SHELL
+  300  ls
+  301  mkdir dir
+  302  ls
+  303  mkdir dir1 dir2 dir3 dir4
+  304  ls
+  305  mkdir -p one
+  306  mkdir -p one/two/three/four
+  307  ls
+  308  ls one
+  309  ls one two 
+  310  ls
+  311  ls one
+  312  ls one/two
+  313  ls one/two/three
+  314  ls one/two/three/four
+  315  ls
+  316  ls one
+  317  ls one/two
+  318  ls one/two/three
+  319  ls 
+  320  ls -R
+  321  ls
+  322  rmdir one
+  323  remdir dir4
+  324  sudo apt install remdir
+  325  remdir dir4
+  326  rmdir dir4
+  327  ls
+  328  rmdir one
+  329  ls
+  330  rmdir dir3
+  331  ls
+  332  clear
+  333  touch file.txt
+  334  ls
+  335  touch file1.txt file2.txt file3.txt file4.txt
+  336  ls
+  337  cat > courses.txt
+  338  cat courses.txt
+  339  cat > courses.txt
+  340  cat courses.txt
+  341  cat >> courses.txt
+  342  cat text.txt
+  343  cat > text.txt
+  344  cat text.txt
+  345  cat > text.txt
+  346  cat text.txt
+  347  cat >> text.txt
+  348  cat text.txt
+  349  cat > courses.txt
+  350  cat courses.txt
+  351  cat >> courses.txt
+  352  cat courses.txt
+  353  cat > courses.txt
+  354  cat courses.txt
+  355  cat> courses.txt
+  356  cat courses.txt
+  357  cat >> courses.txt
+  358  cat courses.txt
+  359  ls
+  360  rm file3.txt
+  361  ls
+  362  rm file3.txt
+  363  rm file4.txt
+  364  ls
+  365  pwd
+  366  cd ~/march2024/dmc
+  367  pwd
+  368  ls
+  369  cd dir
+  370  pwd
+  371  cd ~
+  372  pwd
+  373  ls
+  374  cd /Desktop/PRACTISE/STS/Operating system/dmc/dir
+  375  cd /Desktop/PRACTISE/STS/Operating system/dmc/
+  376  cd /Desktop/PRACTISE/STS/Operating system/dmc
+  377  cd /Desktop/
+  378  ls
+  379  cd Desktop
+  380  cd Desktop/PRACTISE/STS/Operating system/dmc
+  381  cd PRACTISE/STS/Operating system/dmc
+  382  cd PRACTISE/
+  383  cd STS
+  384  cd Operating System
+  385  ls
+  386  Cd Operating system
+  387  cd Operating system
+  388  ls
+  389  cd javaPractise
+  390  cd .
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd -
+  395  ls
+  396  cd Operating system
+  397  ls
+  398  cd 'Operating system'
+  399  ls
+  400  cd dmc
+  401  ls
+  402  cd.
+  403  cd .
+  404  ls
+  405  cd ~
+  406  ls
+  407  cd ..
+  408  ls
+  409  cd -
+  410  ls
+  411  cd Desktop
+  412  ls
+  413  cd DMC
+  414  ls
+  415  cd ~
+  416  ls
+  417  cd Deskop
+  418  cd Desktop
+  419  ls
+  420  cd PRACTISE
+  421  ls
+  422  cd STS
+  423  ls
+  424  cd 'Operating system'
+  425  ls
+  426  cd dmc
+  427  ls
+  428  pwd
+  429  cd one
+  430  two/three
+  431  cd two
+  432  ls
+  433  cd three
+  434  ls
+  435  cd four
+  436  ls -R
+  437  ls
+  438  cd -
+  439  ls
+  440  rmdir four
+  441  ls
+  442  clear
+  443  touch file.txt
+  444  ls
+  445  touch file.txt file1.txt file2.txt file3.txt
+  446  ls
+  447  cat > courses.txt
+  448  cat courses.txt
+  449  ls
+  450  rm file3.txt
+  451  ls
+  452  pwd
+  453  cd dir
+  454  ls
+  455  touch dir
+  456  ls
+  457  cd dir
+  458  ls
+  459  cd dir
+  460  ls
+  461  cd dmc
+  462  ls
+  463  cd -
+  464  cd .
+  465  cd ..
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd dir
+  470  pwd
+  471  cd ~
+  472  pwd
+  473  ls
+  474  cd Desktop
+  475  ls
+  476  cd DMC
+  477  pwd
+  478  cd .
+  479  cd ..
+  480  ls
+  481  cd DMC
+  482  ls
+  483  cd ..
+  484  ls
+  485  cd PRACTISE
+  486  ls
+  487  cd STS
+  488  ls
+  489  cd 'Operating system'
+  490  ls
+  491  cd dmc
+  492  ls
+  493  cp courses.txt file1.txt
+  494  cp courses.txt dir1
+  495  ls
+  496  cat courses.txt
+  497  cat dir1
+  498  cat file1.txt
+  499  cat file2.txt
+  500  cp courses.txt file2.txt
+  501  cat file2.txt
+  502  ls
+  503  cp courses.txt di1
+  504  ls
+  505  ls dir
+  506  cp dir copy
+  507  cp -r dir copy
+  508  ls dir
+  509  ls copy
+  510  ls
+  511  cp -r dir copy1
+  512  ls copy1
+  513  ls
+  514  mv courses.txt file.txt
+  515  ls
+  516  cat file2.txt
+  517  ls
+  518  mv dir1 dir
+  519  ls
+  520  mv di1 dir
+  521  ls
+  522  rmdir dir
+  523  remdir dir
+  524  rmdir dir
+  525  ls
+  526  rmdir copy
+  527  rmdir dir
+  528  cd dir
+  529  rmdir di1
+  530  rmdir dir1
+  531  ls
+  532  rmdir di1
+  533  rmdir dir1
+  534  cd .
+  535  cd -
+  536  ls
+  537  cd ..
+  538  ls
+  539  ls -a
+  540  ls -l
+  541  rm -r dir
+  542  ls 
+  543  ls -a
+  544  ls -l
+  545  man ls
+  546  ls -a
+  547  man ls
+  548  ls -b
+  549  man ls
+  550  ls -t
+  551  man ls
+  552  uname
+  553  pwd
+  554  clear
+  555  hostname
+  556  date 
+  557  ls
+  558  mkdir ajay.txt
+  559  ls
+  560  dir
+  561  cat
+  562  cat Deno1.txt
+  563  cat Demo1.txt
+  564  mkdir Demo1.txt
+  565  cat Demo1.txt
+  566  cat Demo1
+  567  mkdir demo1
+  568  cat demo1
+  569  touch Demo.txt
+  570  cat Demo.txt
+  571  cat > Demo.txt
+  572  cat Demo.txt
+  573  ls
+  574  touch abc.txt
+  575  cat>>abc.txt
+  576  cat abc.txt
+  577  ls
+  578  mkdir demo
+  579  cp abc.txt demo
+  580  ls
+  581  cp Demo.txt demo
+  582  mv Demo.txt demo
+  583  mv abc.txt
+  584  mv abc.txt demo
+  585  rev abc.txt
+  586  git clone https://github.com/w1-83838-DMC/Operatingsystem-Assignment.git
+  587  git push 
+  588  git init
+  589  git add .
+  590  git commit -m "Assigment 1"
+  591  git push
+  592  ls
+  593  cat >> Surse
+  594  cat >> Test1.txt
+  595  cat Test1.txt
+  596  cat>> Test1.txt
+  597  clear
+  598  cat Test1.txt
+  599  rm Text1.txt
+  600  rm Test1.txt
+  601  cat Test1.txt
+  602  ls
+  603  cat >> Text.txt
+  604  man ls
+  605  ls -l
+  606  ls
+  607  cd demo
+  608  ls
+  609  ls -l
+  610  ls
+  611  cd abc.txt
+  612  mkdir Dir1
+  613  ls
+  614  cd Dir1
+  615  ls
+  616  ls -l
+  617  ls
+  618  ls ..
+  619  cd ..
+  620  ls -l
+  621  ls
+  622  mkdir Dir2
+  623  ls
+  624  mv abc.txt Dir2
+  625  ls
+  626  mv Demo.txt Dir1
+  627  ls
+  628  ls -l
+  629  ls -t
+  630  man ls
+  631  clear
+  632  ls
+  633  cd ..
+  634  ls
+  635  cat "Demo.txt"
+  636  cat Demo.txt
+  637  cat >> Demo.txt
+  638  sort Demo.txt
+  639  clear
+  640  cat >> Demo1.txt
+  641  sort -d
+  642  cat Demo1.txt
+  643  man ls
+  644  sort -t
+  645  man ls
+  646  sort -c
+  647  cat demo1.txt
+  648  ls
+  649  cat Demo1.txt
+  650  sort -s Demo.t
+  651  sort -s Demo1.txt
+  652  sort -S Demo.txt
+  653  sort -S Demo1.txt
+  654  ls
+  655  ls -S
+  656  ls -lt
+  657  man ls
+  658  ls lt
+  659  ls -lt
+  660  man ls
+  661  help
+  662  clear
+  663  cat Text.txt
+  664  rm Text.txt
+  665  ls
+  666  cat >> Test.txt
+  667  cat >> Demo.txt
+  668  cat>> Demo.txt
+  669  cat >> Text.txt 
+  670  cat Text.txt 
+  671  cat>> java.txt
+  672  cat>>java.txt
+  673  cat java.txt
+  674  cat >> Demo3.txt
+  675  cat Demo3.txt
+  676  cat -n numbers.txt
+  677  cat>>numbers.txt
+  678  cat -n numbers.txt
+  679  head numbers.txt
+  680  tail numbers.txt
+  681  cat >> numbers.txt
+  682  cat numbers.txt
+  683  cat -n numbers.txt
+  684  head numbers.txt
+  685  tail numbers.txt
+  686  rev numbers.txt
+  687  tac numbers.txt
+  688  history
+  689  ls
+  690  history > Demo1.txt

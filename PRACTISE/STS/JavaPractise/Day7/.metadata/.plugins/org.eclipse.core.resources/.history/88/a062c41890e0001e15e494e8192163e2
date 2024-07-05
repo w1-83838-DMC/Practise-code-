@@ -1,0 +1,23 @@
+
+public class Day7_4 {
+
+	public static void main(String[] args) {
+		String str1=args[0];
+		String str2=args[1];
+		System.out.println("str1 "+ str1);
+		System.out.println("Str2 "+ str2);
+		System.out.print("Concatinate the String ");
+		System.out.print(str1.concat(str2));
+		System.out.println("Finding length : ");
+		System.out.println(str1.length());
+		System.out.println(str2.length());
+		System.out.println(str2.charAt(1));
+		System.out.println(str2.isEmpty());
+		System.out.println(str1.isEmpty());
+
+		
+		
+	}
+
+}
+

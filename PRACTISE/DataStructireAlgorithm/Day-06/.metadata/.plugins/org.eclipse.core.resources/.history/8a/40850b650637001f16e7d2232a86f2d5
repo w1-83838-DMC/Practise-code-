@@ -1,0 +1,12 @@
+package com.sunbeam;
+
+public class Heap {
+	private int arr[];
+	private int SIZE;
+	public Heap(int size)
+	{
+		SIZE=0;
+		
+	}
+
+}

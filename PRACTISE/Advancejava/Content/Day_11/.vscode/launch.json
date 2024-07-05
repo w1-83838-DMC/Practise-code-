@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BlogsbootApplication<blogsboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sunbeam.blogsboot.BlogsbootApplication",
+            "projectName": "blogsboot",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+interface i1
+{
+	default public void disp()
+	{
+		
+	}
+	
+}
+interface i2
+{
+	default public void disp()
+	{
+		
+	}
+	
+}
+
+public class Day14_13 {
+
+}

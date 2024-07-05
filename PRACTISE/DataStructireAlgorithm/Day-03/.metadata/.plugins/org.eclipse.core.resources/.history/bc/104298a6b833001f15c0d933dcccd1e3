@@ -1,0 +1,48 @@
+package com.sunbeam;
+
+public class List {
+	
+	static class Node{
+		private int data;
+		private Node next;
+		public Node(int value) // constructor 
+		{
+			data=value;
+			next=null;
+		}
+	}
+	private Node head;
+	public List()
+	{
+		head=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	public void addfirst(int value)
+	{
+		// 0. Create node for given data 
+		Node newnode= new Node(value);
+		// 1. add first node into next of newnode 
+		newnode.next=head;
+		// 2. move head on newnode 
+		head=newnode;
+	}
+	
+	public void display()
+	{
+		// 1. Create trav and start at first node 
+		Node trav=head;
+		System.out.print("List:: ");
+		while(trav!=null)
+		{
+			//2. Print/visit current node(trav.data)
+			System.out.println(""+trav.data);
+			// 3. go on next node (trav.next)
+			trav=trav.next;
+		}// 4. repat step 2 3 till last node 
+		
+		System.out.println("");
+	}
+}

@@ -1,0 +1,46 @@
+// single lamda expressioon
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Day15_1 {
+//	public static void main(String[] args) 
+	
+		/*
+		List<Integer>l1=Arrays.asList(11,22,33,44,55,66);
+		//System.out.println("l1" + l1);  // toSTring()
+		
+		System.out.println("Using for each loop ");
+		for(Integer i:l1)
+		{
+			System.out.print(i + "\t");
+		}
+		System.out.println();
+		System.out.println("Using Lamda expression : ");
+		l1.forEach(x->System.out.print(x + "\t"));
+		
+		System.out.println();
+		List<String>l2= Arrays.asList("DMC","DAC");
+		l2.forEach(element->System.out.print(element + "\t"));
+			
+	}
+	*/
+	
+	/*
+	public static void main(String[] args) 
+	{
+		
+		List<Integer> l1= Arrays.asList(10,20,30,40,50);
+		l1.forEach(x -> System.out.println(x*5));
+	}
+
+	}
+*/
+	
+	public static void main(String[] args) {
+		List<Integer>ls=Arrays.asList(10,20,30,40,50,60,70);
+		ls.forEach(x->System.out.println());
+	}
+}
+		

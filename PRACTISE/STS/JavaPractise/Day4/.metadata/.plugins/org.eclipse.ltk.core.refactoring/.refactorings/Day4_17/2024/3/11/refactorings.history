@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sunbeaminfo.products.Day4_17&apos; to &apos;Mobile&apos;&#x0A;- Original project: &apos;Day4_17&apos;&#x0A;- Original element: &apos;com.sunbeaminfo.products.Day4_17&apos;&#x0A;- Renamed element: &apos;com.sunbeaminfo.products.Mobile&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Day4_17&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.sunbeaminfo.products{Day4_17.java[Day4_17" matchStrategy="1" name="Mobile" qualified="false" references="true" similarDeclarations="false" stamp="1710073185136" textual="false" version="1.0"/>
+</session>

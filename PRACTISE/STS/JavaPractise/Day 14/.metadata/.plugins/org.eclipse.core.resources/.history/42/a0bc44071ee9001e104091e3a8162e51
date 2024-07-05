@@ -1,0 +1,54 @@
+// Read and write Multiple Bytes from binary file 
+
+import java.io.BufferedInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.WriteAbortedException;
+import java.util.Scanner;
+
+public class Day14 {
+	
+	static Scanner sc= new Scanner(System.in);
+	static String name="Demo.dat";
+	
+	static void ReadData()
+	{
+		try(ObjectInputStream os= new ObjectInputStream(new BufferedInputStream(new FileInputStream(new File(Demo.dat))));)
+		{
+			
+		}
+		
+	}
+	static void WriteData()
+	{
+		
+	}
+	
+	static int menuchoice()
+	{
+		System.out.println("0. Exit 1.Read 2.Write the data on FIle : ");
+		return sc.nextInt();
+				
+	}
+	
+	public static void main(String[] args) {
+		int choice;
+		while((choice=menuchoice())!=0)
+		{
+			switch(choice)
+			{
+				case 1:
+					ReadData();
+					break;
+				case 2:
+					WriteData();
+					break;
+			}
+				
+		}
+		
+	}
+	
+
+}

@@ -1,0 +1,25 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class SinglyLinearLinkedListMain {
+	public static void main(String[] args) 
+	{
+		List l1= new List();
+		Scanner sc= new Scanner(System.in);
+		int choice=0;
+		do {
+			System.out.println("0.Exit \n 1.AddLinkedList 2.Delerte ");
+			System.out.println("Enter choice ");
+			choice=sc.nextInt();
+			switch(choice)
+			{
+				case 1: 
+					
+			}
+			
+		}while(choice!=0);
+		
+	}
+
+}

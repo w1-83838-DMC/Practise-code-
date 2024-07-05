@@ -1,0 +1,30 @@
+package p1;
+
+public class product {
+	private int productid;
+	private long price;
+	private String name;
+	private String companyname;
+	private String location;
+	
+	product()  //parameterless Constructor
+	{
+		productid=83838;
+		price=115000;
+		name="Ajay";
+		companyname="Sunbeam";
+		location="Hinjawadi";
+	}
+	product(int productid, long price, String name,String companyname,String location)
+	{
+		this.productid=productid;
+		this.price=price;
+		this.name=name;
+		this.companyname=companyname;
+		this.location=location;
+	}
+	public String toString()
+	{
+		retrurn " Product id " + this.productid + " price " + this.price + " Name is " + this.name + " Company Name is " + this.companyname + " Location is " + this.location; 
+	}
+}

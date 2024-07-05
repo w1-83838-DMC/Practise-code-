@@ -1,0 +1,64 @@
+/*
+public class Day5_9 {
+	public static void main(String[] args) {
+		int arr[]= new int[5];
+		// arr is holding int type value --> int --> primitive type
+		arr[0]=10;
+		arr[1]=20;
+		arr[2]=30;
+		arr[3]=40;
+		arr[4]=50;
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			System.out.print(arr[i]+"\t");
+		}
+		System.out.println();
+		
+	}
+
+}
+*/
+/*
+public class Day5_9
+{
+	public static void main(String[] args) 
+	{
+		Integer arr[]= new Integer[5];  // Non primitive 
+		arr[0]=10;
+		arr[1]=20;
+		arr[2]=30;
+		arr[3]=40;
+		arr[4]=50;
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			System.out.print( arr[i] + "\t");
+		}
+	System.out.println();
+		
+	}
+}
+*/
+//class Day5_9
+//{
+//	public static void main(String[] args) 
+//	{
+//		Integer n1= new Integer(50);
+//		System.out.println(n1);
+//		
+//	}
+//}
+
+class Day5_9
+{
+	public static void main(String[] args) {
+		Float arr[]= new Float[4];
+		arr[0]=4.5f;
+		arr[1]=3.4f;
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
+	}
+}
+
+

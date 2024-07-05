@@ -1,0 +1,33 @@
+/* equals() method is called for, object class */
+
+class student
+{
+	int rollno;  // filed of student class
+	int marks; 	 // filed of student class
+	
+	student()
+	{
+		this.rollno=83838;
+		this.marks=90;
+	}
+	public String toString()
+	{
+		return " Roll no "+ this.rollno +" Marks"+ this.marks;
+	}
+	
+	
+}
+
+
+public class Day4_4 {
+
+	public static void main(String[] args) 
+	{
+		student s1= new student();
+		System.out.println(s1);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Day7_2 {
+	enum operations
+	{
+		EXIT,ADD,SUB,MUL,DIV; 
+	}
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		operations op[]=operations.values();
+//		System.out.println(op[0]);
+//		System.out.println(op[1]);
+//		System.out.println(op[2]);
+//		System.out.println(op[3]);
+//		System.out.println(op[4]);
+		for(operations i:op)
+		{
+			System.out.println(i + "\t");
+			
+		}
+		
+	}
+
+}

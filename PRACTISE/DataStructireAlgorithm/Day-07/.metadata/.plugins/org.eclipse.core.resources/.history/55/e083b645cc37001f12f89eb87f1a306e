@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class StackMain {
+	public static void main(String[] args) {
+		Stack st= new Stack(4);
+		
+		Scanner sc= new Scanner(System.in);
+		int choice;
+		do {
+			
+		}while(choice!=null);
+	}
+
+}

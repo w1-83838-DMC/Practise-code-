@@ -1,0 +1,18 @@
+package p1;
+
+public class Manager extends Employee{
+	private int managerid;
+	private int salary;
+	
+	Manager()
+	{
+		
+	}
+	Manager(String name,int age,int empid, String department,int managerid,int salary)
+	{
+		super(name,age,empid,sal)
+		this.managerid=managerid;
+		this.salary=salary;
+	}
+
+}

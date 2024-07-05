@@ -1,0 +1,71 @@
+package com.sunbeam;
+
+public class BStree {
+	static class Node{
+		private int data;
+		private Node left;
+		private Node right;
+		
+		public Node(int value)
+		{
+			data=value;
+		}
+	}
+	private Node root;
+	public BStree()
+	{
+		root=null;
+	}
+	public boolean isEmpty()
+	{
+		return root==null;
+	}
+	public void addNode(int value)
+	{
+		Node trav=root;
+		Node newnode=new Node(value);
+		while(true)
+		{		
+		if(value<trav.data)
+		{
+			if(trav.left==null) // if empty 
+			{
+				trav.left=newnode;
+				break;
+			}else 
+			{
+				trav=trav.left;
+			}
+		}else 
+		{
+			if(trav.right==null)// if empty 
+			{
+				trav.right=newnode;	
+				break;
+			}else 
+			{
+				trav=trav.right;
+			}
+		 }
+	  }
+  }
+	
+	// preorder 
+	
+	public void preorder(Node trav)
+	{
+		System.out.print(" "+ trav.data);
+		preorder(trav.left);
+		preorder(trav.right);
+	}
+	
+	public void preorder()
+	{
+		System.out.println("Preorder");
+		preorder(root);
+	}
+	
+	
+
+
+}

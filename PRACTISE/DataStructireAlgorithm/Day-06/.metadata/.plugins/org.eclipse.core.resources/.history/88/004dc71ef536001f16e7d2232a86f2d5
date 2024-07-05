@@ -1,0 +1,61 @@
+package com.sunbeam;
+
+public class BSTree {
+	static class Node{
+		private int data;
+		private Node left;
+		private Node right;
+		public Node(int value)
+		{
+			data=value;
+			left=right=null;
+		}
+	}
+	private Node root;
+	public BSTree()
+	{
+		root=null;
+	}
+	public boolean isEmpty()
+	{
+		return root==null;
+	}
+	public void deleteAll() {
+		root=null;
+	}
+	
+	public void addNode(int value)
+	{
+		// create node for given data 
+		Node newnode= new Node(value);
+		// if BSTree is empty
+		if(isEmpty())
+			// add newnode into root self
+			root=newnode;
+		// if BSTree is not empty 
+		else 
+		{
+			// create trav referenence ans start at root 
+			Node trav=root;
+			// if value is less than current node data 
+			if(value < trav.data)
+			{
+				// if left of current data is empty 
+				if(trav.left==null)
+				{
+					// add newnode into left of current data 
+					trav.left=newnode;
+					break;
+				}else 
+				{
+					
+				}
+				
+				
+			}
+		}
+		
+		
+	}
+
+}

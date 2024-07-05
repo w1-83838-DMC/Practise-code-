@@ -1,0 +1,22 @@
+// read and write a single byte from binary file
+
+// read  -> InputStream
+// Write -> OutputStream
+
+import java.util.Scanner;
+
+public class Day13_8
+{
+	Scanner sc= new Scanner(System.in);
+	String pathname="File1.dat";
+	
+	static int menulist()
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+}

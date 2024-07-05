@@ -1,0 +1,26 @@
+class Employee
+{
+	/*By default empid and salary will give package level visibility*/
+	int empid;
+	float salary;
+	Employee()
+	{
+		this.empid=83838;
+		this.salary=15000;	
+	}
+	void display()
+	{
+		System.out.println(" Employee id :- "+ this.empid + " Employee Salary:-  " + this.salary);
+	}
+}
+public class Day3_8 {
+
+	public static void main(String[] args) 
+	{
+		Employee e1= new Employee();
+		e1.display();
+		
+
+	}
+
+}

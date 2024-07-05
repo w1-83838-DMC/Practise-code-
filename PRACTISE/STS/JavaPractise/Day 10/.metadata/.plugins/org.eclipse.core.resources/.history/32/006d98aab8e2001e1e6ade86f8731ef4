@@ -1,0 +1,16 @@
+package p1;
+
+public class Square extends shape{
+
+	int square;
+	Square(int Square,int x, int y)
+	{
+		this.Square=Square;
+	}
+	
+	
+	void area()
+	{
+		System.out.println("Area of circle = ");
+	}
+}

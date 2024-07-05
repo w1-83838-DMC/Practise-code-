@@ -1,0 +1,15 @@
+package p1;
+
+public class Day10_1 {
+	public static void main(String[] args) {
+		Student sobj= new Student("Ajay",19,12345,"Dmc");
+		//Trainer tobj= new Trainer("Jay",34,456,"DAC");
+		sobj.test();
+		sobj.displayMarks(12);
+		System.out.println( sobj );
+
+	
+		
+	}
+
+}

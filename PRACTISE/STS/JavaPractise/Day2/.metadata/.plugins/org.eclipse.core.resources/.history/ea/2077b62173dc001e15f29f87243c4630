@@ -1,0 +1,29 @@
+import java.util.*;
+public class Day2_11 {
+	public static void main(String[] args) 
+	{
+		int OS,C,CPP,JAVA,SQL,Sum;
+		int percenage;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter The OS Marks");
+		OS=sc.nextInt();
+		System.out.println("Enter The C Marks");
+		C=sc.nextInt();
+		System.out.println("Enter The CPP Marks");
+		CPP=sc.nextInt();
+		System.out.println("Enter The JAVA Marks ");
+		JAVA=sc.nextInt();
+		System.out.println("Enter The SQL Marks");
+		SQL=sc.nextInt();
+		Sum=(OS+C+CPP+JAVA+SQL);
+		System.out.println(Sum);
+		percenage=(Sum/500*100);
+		System.out.println(percenage);
+		
+		
+		
+		
+		
+	}
+
+}

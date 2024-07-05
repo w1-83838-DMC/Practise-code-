@@ -1,0 +1,23 @@
+// 
+import java.util.scanner;
+public class Day13_9 {
+	Scanner sc= new Scanner(System.in);
+	
+	
+	static void menulist()
+	{
+		
+	}
+	public static void main(String[] args) {
+		
+		int choice;
+		switch(choice)
+		{
+			case 1: ReadRecord();
+				break;
+			case 2: WriteRecord();
+				break;
+		}
+	}
+
+}

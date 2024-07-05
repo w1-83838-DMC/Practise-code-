@@ -1,0 +1,16 @@
+// Serialization and deserialization
+
+public class Day14_1 
+{
+	static int menuchoice()
+	{
+		System.out.println("0. Exit 1. Writedata 2. Readdata ");
+	}
+	
+	public static void main(String[] args) {
+		int choice;
+		
+		
+	}
+
+}

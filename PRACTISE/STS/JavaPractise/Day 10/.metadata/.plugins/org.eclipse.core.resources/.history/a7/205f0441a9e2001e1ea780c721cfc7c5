@@ -1,0 +1,43 @@
+package p1;
+
+public class Student extends Person{
+	int rollno;
+	String coursename;
+	
+	Student()
+	{
+		
+	}
+
+	Student(int rollno, String coursename)
+	{
+		this.rollno= rollno;
+		this.coursename=coursename;
+		
+	}
+	public void setRollno(int rollno)
+	{
+		this.rollno= rollno;
+	}
+	public void setcoursename(String coursename)
+	{
+		this.coursename=coursename;
+	}
+	public int getRollno()
+	{
+		return rollno;
+	}
+	public String coursename()
+	{
+		return coursename;
+	}
+	public String toString()
+	{
+		return " Roll no " + rollno + "coursename" + coursename;
+	}
+	public void test() // overridden method
+	{
+		
+	}
+
+}

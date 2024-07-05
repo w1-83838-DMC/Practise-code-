@@ -1,0 +1,39 @@
+package com.sunbeam;
+
+public class List {
+	static class Node{
+		private int data;
+		private Node next;
+		private Node prev;
+		public Node(int value)
+		{
+			data=value;
+			next=prev=null;
+		}
+	}
+	
+	private Node head;
+	private int count;
+	public List()
+	{
+		head=null;
+		count=0;
+	}
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	
+	public void add(Node before,Node after,Node newnode) {
+		//1. add after into prev of newnode
+		newnode.prev=after;
+		//2. add before into next of newnode
+		newnode.next=before;
+		//3. Add newnode into prev of before 
+		before.prev=newnode;
+		//4. Add newnode into next of after 
+		after.next=newnode;
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package p1;
+
+public class FilePrinter {
+	
+	public void print(String msg)
+	{
+		System.out.println("FilePrinter class ");
+		System.out.println("Data "+ data);
+	}
+
+}

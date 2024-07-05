@@ -1,0 +1,14 @@
+class Test<T>
+{
+	void display(T value)
+	{
+		System.out.println("Value ="+value);
+	}
+}
+public class Day11_10 {
+	public static void main(String[] args) {
+		Test<Integer> t1= new Test<Integer>();
+		t1.display("123");
+	}
+
+}

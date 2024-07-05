@@ -1,0 +1,12 @@
+package p1;
+
+public class Student extends Person{
+	int rollno;
+	String coursename;
+	
+	public void test() // overridden method
+	{
+		
+	}
+
+}

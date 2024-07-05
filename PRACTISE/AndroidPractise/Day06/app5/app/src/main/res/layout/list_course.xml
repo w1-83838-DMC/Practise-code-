@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageCourse"
+                android:layout_weight="0.3"
+                android:src="@drawable/dac"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.7"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textName"
+                    android:textSize="25dp"
+                    android:text="Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/textFess"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="Fees"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

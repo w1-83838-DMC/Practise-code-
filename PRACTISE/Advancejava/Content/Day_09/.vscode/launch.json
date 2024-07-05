@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Boot05streoApplication<boot05streo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sunbeam.boot05streo.Boot05streoApplication",
+            "projectName": "boot05streo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

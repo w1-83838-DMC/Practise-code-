@@ -1,0 +1,32 @@
+/* Calling Base class Method with the help of derived class object inside main() */
+
+import java.util.Scanner;
+
+class person
+{
+	String name;
+	int age;
+	
+}
+class Employee extends person
+{
+	int empid;
+	int salary;
+	void accepctData()
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the Empid : ");
+		empid=sc.nextInt();
+		System.out.println("Enter the Salary : ");
+		salary=sc.nextInt();
+	}
+}
+
+
+public class Day8_1 {
+	Employee e1= new Employee();
+
+
+	
+	
+}

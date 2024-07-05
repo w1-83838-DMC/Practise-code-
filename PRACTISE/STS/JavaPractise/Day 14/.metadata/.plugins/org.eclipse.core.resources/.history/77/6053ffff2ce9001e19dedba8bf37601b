@@ -1,0 +1,42 @@
+// fetch the metadata about constructor
+
+import java.lang.reflect.Constructor;
+
+class ReflectionDemo
+{
+	private String str;
+	public int value;
+	
+	public ReflectionDemo() {
+		super();
+		
+	}
+	public ReflectionDemo(String str, int value) {
+		super();
+		this.str = str;
+		this.value = value;
+	}
+	
+	public void m1()
+	{
+		System.out.println("Inside Method m1");
+	}
+	public void m2(int num)
+	{
+		System.out.println("Inside Method m2"+num);
+	}
+	
+}
+public class Test
+{
+	public static void main(String[] args) {
+		Class c=ReflectionDemo.class;
+		Constructor ctarr[]=c.getConstructors();
+		for(Constructor Re:ctarr)
+		{
+			System.out.println(Re);
+			
+		}
+		
+	}
+}

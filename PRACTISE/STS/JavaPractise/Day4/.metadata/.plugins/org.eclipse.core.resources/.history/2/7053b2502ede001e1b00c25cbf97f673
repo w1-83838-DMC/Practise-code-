@@ -1,0 +1,14 @@
+package p2;
+import p1.student;
+import p1.Trainer;
+public class Day4_7 {
+	public static void main(String[] args) {
+		student s1= new student();
+		System.out.println(s1);
+		student s2= new student(856432,678);
+		System.out.println(s2);
+	}
+	
+	
+
+}

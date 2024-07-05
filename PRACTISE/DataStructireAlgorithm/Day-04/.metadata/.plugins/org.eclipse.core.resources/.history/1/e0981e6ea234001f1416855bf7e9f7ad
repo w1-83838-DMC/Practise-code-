@@ -1,0 +1,82 @@
+package com.sunbeam;
+
+public class List {
+	static class Node{
+		private int data;
+		private Node next;
+		private Node prev;
+		
+		public Node(int value)
+		{
+			data=value;
+			next=prev=null;
+		}
+	}
+	private Node head;
+	private Node tail;
+	public List()
+	{
+		head=tail=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null && tail==null;
+	}
+	
+	public void fDisplay()
+	{
+		// Forward traversal 
+		System.out.println("Forward List : ");
+		// 1. create trav and start from head
+		Node trav = head;
+		while(trav!=null) {
+			// print current node 
+			System.out.print(" "+ trav.data);
+			// go on next node 
+			trav=trav.next;
+		}
+		System.out.println("");	
+	}
+	
+	public void rDisplay()
+	{
+		// Reverse Traversal 
+		System.out.print("Reverse List : ");
+		// 1. create trav and start from tail 
+		Node trav=tail;
+		while(trav!=null)
+		{
+			System.out.print(" "+ trav.data);
+			// go on next node 
+			trav=trav.prev;
+		}
+		System.out.println("");
+	}
+	public void deleteAll()
+	{
+		head=tail=null;
+	}
+	
+	public void addfirst(int value)
+	{
+		// create Node 
+		Node newnode= new Node(value);
+		// if empty 
+		if(isEmpty())
+		{
+			// if empty add newnode into head and tail 
+			head=tail=newnode;
+		}else // if lisy is not empty 
+		{
+			// add firstnode into next of newnode 
+			newnode.next=head;
+			// add newnode into prev of first node 
+			head.prev=head;
+			// c. move head on on newnode 
+			head=newnode;
+		}
+		
+	}
+	
+	
+}

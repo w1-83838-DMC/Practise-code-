@@ -1,0 +1,15 @@
+package p1;
+
+public class NetworkPrinter implements Printer {
+	public void print(String msg)
+	{
+		System.out.println("Network Printer class");
+		
+	}
+	void m1()
+	{
+		System.out.println(" m1 ");
+		
+	}
+
+}

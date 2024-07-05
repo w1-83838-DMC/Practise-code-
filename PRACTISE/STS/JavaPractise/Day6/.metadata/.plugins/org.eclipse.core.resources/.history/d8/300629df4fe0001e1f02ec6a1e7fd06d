@@ -1,0 +1,21 @@
+class Date
+{
+	int dd;
+	int mm; 
+	int yy;
+}
+public class Day6_7 {
+	int pid;
+	int price;
+	String name;
+	String companyname;
+	String location;
+	
+	product(int pid, int price, String name, String companyname,String location)
+	{
+		this.pid=pid;
+		
+		
+	}
+
+}

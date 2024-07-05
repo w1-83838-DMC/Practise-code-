@@ -1,0 +1,46 @@
+class Date
+{
+	int dd;
+	int mm; 
+	int yy;
+	Date()
+	{
+		
+	}
+}
+class Product{
+	int pid;
+	int price;
+	String name;
+	String companyname;
+	String location;
+	
+	
+	
+	Product(int pid, int price, String name, String companyname,String location)
+	{
+		this.pid=pid;
+		this.price=price;
+		this.name=name;
+		this.companyname=companyname;
+		this.location=location;		
+	}
+
+}
+public class Day6_7
+{
+	public static void main(String[] args) {
+		
+		Product p1[]= new Product[2];
+		
+		p1[0]= new Product(12,14000,"Ajay","Sunbeam","Hinjawadi");
+		
+		for(Product p : p1)
+		{
+			System.out.println(p);
+		}
+		
+		
+	}
+}
+

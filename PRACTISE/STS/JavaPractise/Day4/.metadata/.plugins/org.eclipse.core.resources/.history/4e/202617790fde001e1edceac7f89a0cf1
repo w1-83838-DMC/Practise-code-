@@ -1,0 +1,23 @@
+package p1;
+
+public class Employee {
+	int empid;
+	String name;
+	
+	Employee()
+	{
+		this.empid=empid;
+		this.name=name;
+	}
+	Employee(int empid, String name)
+	{
+		this.empid=empid;
+		this.name=name;
+		
+	}
+	public String toString()
+	{
+		return " Employee id = "+this.empid + " Employee Name = "+this.name;
+		
+	}
+}

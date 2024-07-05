@@ -1,0 +1,25 @@
+package com.sunbeaminfo.tester;
+
+import java.util.Scanner;
+
+import com.sunbeaminfo.products.*;
+public class product {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the choice : 1. Mobile 2. Laptop 3. Watch");
+		int choice = sc.nextInt();
+		switch(choice)
+		{
+			case 1:
+				Mobile m1= new Mobile()
+				m1.accepct();
+				m1.display();
+				break;
+			
+		}
+	
+
+		
+	}
+
+}

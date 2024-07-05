@@ -1,0 +1,17 @@
+// take one input from user using command line argument 
+// if number < 0 throw one exception "NegativeNumberException"
+
+class NegativeNumberException extends Exception
+{
+	private void Sysout() {
+		// TODO Auto-generated method stub
+
+	}
+	
+}
+class Day11_3
+{
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,20 @@
+package p1;
+
+public class Day9_1 {
+	public static void main(String[] args) {
+		
+	//Printer p1= new Printer(); We cant create the object the Interface
+	
+	Printer p1= new FilePrinter(); // upcasting
+	//p1.print("10 pages ");
+	
+	System.out.println("---------------");
+	p1= new NetworkPrinter();
+	p1.print("NetworkPrinter");
+	
+		
+		
+		
+	}
+
+}

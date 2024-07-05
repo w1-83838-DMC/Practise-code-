@@ -1,0 +1,44 @@
+import java.util.Vector;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class Day12_7 {
+	public static void main(String[] args) {
+		Vector<Integer> v1= new Vector<Integer>();
+		v1.addElement(10);
+		v1.addElement(20);
+		v1.addElement(30);
+		v1.addElement(40);
+		v1.addElement(50);
+		
+		System.out.println(v1.toString()); // using toString()
+		
+		System.out.println("print the elements using foreach loop ");
+		for(Integer i: v1) // Using for each loop
+		{
+			System.out.print(i+ "\t");
+		}
+		System.out.println();
+		System.out.println("Print the element using forloop : ");
+		for(int i=0; i<v1.size(); i++)
+		{
+			System.out.print(v1.get(i)+"\t");
+		}
+		System.out.println();
+		System.out.println("Print the element using Iterator ");
+		Iterator itr= v1.iterator();
+		while(itr.hasNext())
+		{
+			System.out.print(itr.next() + "\t");
+		}
+		System.out.println();
+		System.out.println("Print the element using ListIterator ");
+		ListIterator lstr= v1.listIterator();
+		while(lstr.hasNext())
+		{
+			System.out.println(lstr.next() + "\t");
+		}
+
+	}
+
+}

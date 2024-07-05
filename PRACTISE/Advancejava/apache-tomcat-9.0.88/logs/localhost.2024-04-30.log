@@ -1,0 +1,1202 @@
+30-Apr-2024 07:33:37.765 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 07:33:37.765 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 07:33:37.766 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@89ff02e')
+30-Apr-2024 07:43:21.136 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 07:43:21.136 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 15:14:35.244 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 15:14:35.244 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 15:14:35.246 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5fcacc0')
+30-Apr-2024 15:25:12.871 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 15:25:12.871 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 17:12:48.892 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 17:12:48.892 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 17:12:48.894 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@79e18e38')
+30-Apr-2024 17:50:34.868 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 17:50:34.868 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 17:50:58.912 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 17:50:58.912 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 17:50:58.913 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1849db1a')
+30-Apr-2024 18:09:06.674 SEVERE [http-nio-8080-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${cat.fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.MethodNotFoundException: Method not found: class com.sunbeam.beans.BlogListBean.fetchCategory()
+		at javax.el.Util.findWrapper(Util.java:388)
+		at javax.el.Util.findMethod(Util.java:232)
+		at javax.el.BeanELResolver.invoke(BeanELResolver.java:145)
+		at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:13.720 SEVERE [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.ELException: Function [:fetchCategory] not found
+		at org.apache.el.parser.AstFunction.getValue(AstFunction.java:141)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:155)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:14.243 SEVERE [http-nio-8080-exec-23] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.ELException: Function [:fetchCategory] not found
+		at org.apache.el.parser.AstFunction.getValue(AstFunction.java:141)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:155)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:14.837 SEVERE [http-nio-8080-exec-17] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.ELException: Function [:fetchCategory] not found
+		at org.apache.el.parser.AstFunction.getValue(AstFunction.java:141)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:155)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:22.252 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.ELException: Function [:fetchCategory] not found
+		at org.apache.el.parser.AstFunction.getValue(AstFunction.java:141)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:155)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:54.207 SEVERE [http-nio-8080-exec-28] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${cat.fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.MethodNotFoundException: Method not found: class com.sunbeam.beans.BlogListBean.fetchCategory()
+		at javax.el.Util.findWrapper(Util.java:388)
+		at javax.el.Util.findMethod(Util.java:232)
+		at javax.el.BeanELResolver.invoke(BeanELResolver.java:145)
+		at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:54.712 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${cat.fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.MethodNotFoundException: Method not found: class com.sunbeam.beans.BlogListBean.fetchCategory()
+		at javax.el.Util.findWrapper(Util.java:388)
+		at javax.el.Util.findMethod(Util.java:232)
+		at javax.el.BeanELResolver.invoke(BeanELResolver.java:145)
+		at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:55.037 SEVERE [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${cat.fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.MethodNotFoundException: Method not found: class com.sunbeam.beans.BlogListBean.fetchCategory()
+		at javax.el.Util.findWrapper(Util.java:388)
+		at javax.el.Util.findMethod(Util.java:232)
+		at javax.el.BeanELResolver.invoke(BeanELResolver.java:145)
+		at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:55.208 SEVERE [http-nio-8080-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${cat.fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.MethodNotFoundException: Method not found: class com.sunbeam.beans.BlogListBean.fetchCategory()
+		at javax.el.Util.findWrapper(Util.java:388)
+		at javax.el.Util.findMethod(Util.java:232)
+		at javax.el.BeanELResolver.invoke(BeanELResolver.java:145)
+		at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:10:55.440 SEVERE [http-nio-8080-exec-25] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [13]
+
+10: <body>
+11:     <jsp:useBean id="cat" class="com.sunbeam.beans.BlogListBean"/>
+12:     <jsp:setProperty name="cat" property="*" />
+13:     ${cat.fetchCategory()}
+14:     <table border="1">
+15:         <tr>
+16:             <th>id</th>
+
+
+Stacktrace:] with root cause
+	javax.el.MethodNotFoundException: Method not found: class com.sunbeam.beans.BlogListBean.fetchCategory()
+		at javax.el.Util.findWrapper(Util.java:388)
+		at javax.el.Util.findMethod(Util.java:232)
+		at javax.el.BeanELResolver.invoke(BeanELResolver.java:145)
+		at org.apache.jasper.el.JasperELResolver.invoke(JasperELResolver.java:163)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:158)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:149)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:12:44.899 SEVERE [http-nio-8080-exec-35] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.id}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [id] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:12:45.918 SEVERE [http-nio-8080-exec-33] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.id}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [id] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:48.596 SEVERE [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:49.247 SEVERE [http-nio-8080-exec-38] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:49.710 SEVERE [http-nio-8080-exec-36] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:49.902 SEVERE [http-nio-8080-exec-42] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:50.067 SEVERE [http-nio-8080-exec-39] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:50.244 SEVERE [http-nio-8080-exec-40] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:20:08.378 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:20:08.378 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:20:10.260 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:20:10.260 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:20:10.262 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5fcacc0')
+30-Apr-2024 18:20:26.302 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:22:24.179 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:22:24.179 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:22:27.959 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:22:27.959 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:22:27.960 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1ca25c47')
+30-Apr-2024 18:22:30.978 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.userId}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [userId] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:22:42.061 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:22:42.061 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:22:44.163 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:22:44.163 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:22:44.166 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6865c751')
+30-Apr-2024 18:22:58.683 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.id}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [id] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:23:27.880 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:23:27.880 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:23:31.435 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:23:31.435 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:23:31.438 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6d1d4d7')
+30-Apr-2024 18:23:46.680 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [23]
+
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:              
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+26: 
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [title] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:207)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:28:33.050 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:28:33.050 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:28:34.570 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:28:34.570 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:28:34.572 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@533b266e')
+30-Apr-2024 18:28:37.643 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:28:37.644 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:28:39.620 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:28:39.620 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:28:39.621 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5fcacc0')
+30-Apr-2024 18:28:51.646 SEVERE [http-nio-8080-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/blogsjsp] threw exception [An exception occurred processing [/categories.jsp] at line [22]
+
+19:         </tr>
+20:         <c:forEach var="c" items="{cat.categoryList}">
+21:         <tr>
+22:             <td>${c.id}</td>
+23:             <td>${c.title}</td>
+24:             <td>${c.description}</td>
+25:         </tr>
+
+
+Stacktrace:] with root cause
+	javax.el.PropertyNotFoundException: Property [id] not found on type [java.lang.String]
+		at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:253)
+		at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:206)
+		at javax.el.BeanELResolver.property(BeanELResolver.java:322)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:93)
+		at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:125)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:690)
+		at org.apache.jsp.categories_jsp._jspx_meth_c_005fforEach_005f0(categories_jsp.java:206)
+		at org.apache.jsp.categories_jsp._jspService(categories_jsp.java:158)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:200)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:169)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:34:04.508 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:34:04.509 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:34:07.208 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:34:07.212 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:34:07.213 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@533b266e')
+30-Apr-2024 18:35:29.810 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:35:29.810 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 18:35:32.808 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 18:35:32.808 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 18:35:32.810 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@303e3593')
+30-Apr-2024 18:40:52.785 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 18:40:52.785 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+30-Apr-2024 21:33:59.207 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+30-Apr-2024 21:33:59.207 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+30-Apr-2024 21:33:59.208 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6865c751')
+30-Apr-2024 22:29:36.514 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+30-Apr-2024 22:29:36.514 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()

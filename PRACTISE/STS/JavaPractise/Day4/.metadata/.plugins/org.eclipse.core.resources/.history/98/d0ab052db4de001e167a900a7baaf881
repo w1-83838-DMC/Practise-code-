@@ -1,0 +1,33 @@
+/*class */
+
+
+class MathDemo
+{	
+	
+	static void addition()
+	{
+		int n1=10, n2=18;
+		System.out.println("Addition of num1 and num2 is "+(n1+n2));
+	}
+//	public String toString()  // overidden in MathDemo class
+//	{
+//		return "Num1 = " +this.num1 + " Num2 = " +this.num2;
+//	}
+	
+	
+}
+public class Day4_12 
+{
+	public static void main(String[] args) 
+	{
+//		MathDemo md= new MathDemo();
+//		System.out.println(md);
+		MathDemo.addition();
+		
+		
+		
+		
+	}
+	
+
+}

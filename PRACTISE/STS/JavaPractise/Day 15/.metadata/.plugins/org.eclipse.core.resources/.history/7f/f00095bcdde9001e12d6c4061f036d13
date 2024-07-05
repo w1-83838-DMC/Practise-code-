@@ -1,0 +1,16 @@
+// Method reference 
+// 1. Method reference to an instance method of an object
+
+interface test
+{
+	void disp();
+	
+}
+public class Day15_6 {
+	public static void main(String[] args) 
+	{
+	
+		
+	}
+
+}

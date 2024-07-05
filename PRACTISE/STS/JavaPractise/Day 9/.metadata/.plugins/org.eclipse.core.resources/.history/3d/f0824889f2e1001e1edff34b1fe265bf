@@ -1,0 +1,51 @@
+package p1;
+
+public class Day9_2 {
+	public static void main(String[] args) {
+//		Machine mobj= new Machine();
+//		mobj.start();
+//		
+//		System.out.println("-----------------");
+//		
+//		Laptop lobj= new Laptop();
+//		lobj.start();
+//		lobj.stop();
+//		
+//		System.out.println("------------------");
+//		
+//		Desktop dobj= new Desktop();
+//		dobj.start();
+//		dobj.stop();
+		
+		
+		// Upcasting 
+		// Machine mobj = lobj;
+		// mobj(super) is holding object of lobj(sub class)
+		// when we call mobj.start() ==> is called from laptop class 
+		
+		// mobj=dobj;
+		// mobj points to desktop class object 
+		// when mobj.start() ==> will be called from Desktop class 
+		// it is also called as Run time polymorphism  and DYNAMIC METHOD DISMATCH
+	
+		
+		// upcasting : Assign a child class objet to parrent class reference 
+		
+		Laptop lobj= new Laptop();
+			Machine machineobj=lobj; // upcasting 
+			mobj.start();
+			
+			System.out.println("-------------------");
+			
+		Desktop dobj= new Desktop();
+			mobj=dobj;
+			mobj.start();
+			
+		
+			
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.lir.aarch64.AArch64ArithmeticOp.AddSubShiftOp"/>
+    <fullyQualifiedTypeName name="java.sql.SQLClientInfoException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+</qualifiedTypeNameHistroy>

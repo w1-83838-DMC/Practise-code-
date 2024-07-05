@@ -1,0 +1,11 @@
+package com.sunbeam;
+
+import java.util.Scanner;
+
+public class SinglyCircularLikedList {
+	public static void main(String[] args) {
+		
+	}
+
+
+}

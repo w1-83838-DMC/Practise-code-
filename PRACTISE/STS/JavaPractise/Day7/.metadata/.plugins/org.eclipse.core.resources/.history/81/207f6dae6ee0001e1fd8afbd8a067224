@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Day7_2 {
+	enum operations
+	{
+		EXIT,ADD,SUB,MUL,DIV; 
+	}
+
+	public static void main(String[] args) 
+	{
+		int choice=0;
+		Scanner sc=new Scanner(System.in);
+//		System.out.println(op[0]);
+//		System.out.println(op[1]);
+//		System.out.println(op[2]);
+//		System.out.println(op[3]);
+//		System.out.println(op[4]);
+//		for(operations i:op)
+//		{
+//			System.out.println(i+ "\t");
+//			
+//		}
+		System.out.println("Enter the Choice :1.ADD, 2.SUB 3.MUL 4.DIV : ");
+		choice = sc.nextInt();
+		Day7_2.operations op =operations.values()[choice];
+		System.out.println("Operations that you have opted for = "+ op);
+		
+		
+	}
+
+}

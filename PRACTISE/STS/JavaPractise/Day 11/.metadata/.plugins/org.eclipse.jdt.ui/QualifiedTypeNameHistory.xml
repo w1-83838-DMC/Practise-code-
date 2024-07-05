@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="NegativeNumberExceptiofn"/>
+    <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+    <fullyQualifiedTypeName name="NegativeNumberExcepti"/>
+    <fullyQualifiedTypeName name="NegativeNumberExceptionss"/>
+    <fullyQualifiedTypeName name="NegativeNumberException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="InvalidException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="AgeException"/>
+    <fullyQualifiedTypeName name="java.security.AlgorithmConstraints"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

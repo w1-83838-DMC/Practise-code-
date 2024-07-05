@@ -1,0 +1,17 @@
+//display arraylist contents
+
+import java.util.ArrayList;
+
+public class Day12_2 {
+	public static void main(String[] args) {
+		int a[]= {10,20,30,40,18,65,98,34,76,92,90};
+		ArrayList<Integer>a1= new ArrayList<Integer>();
+		for(int i=0; i<a.length; i++)
+		{
+			a1.add(a[i]);
+		}
+		System.out.println(a1);
+	}
+	
+
+}

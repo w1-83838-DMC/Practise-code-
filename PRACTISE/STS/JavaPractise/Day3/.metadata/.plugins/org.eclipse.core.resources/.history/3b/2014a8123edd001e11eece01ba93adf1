@@ -1,0 +1,39 @@
+/* Parameterized Constructor Sequence must be followed at the time of creation of object Object shall get initialized with its values */
+
+
+class Employee
+{
+	String name; // filed of Employee Class Non primitive Type
+	int empid;  // filed of Employee class  primitive type  
+	float salary; // filed of Employee Class primitive Type 
+	
+	Employee()
+	{
+		this.name="Ajay";
+		this.empid= 83838;
+		this.salary=34000;
+	}
+	Employee(String name, int empid, float salary)
+	{
+		this.name=name;
+		this.empid=empid;
+		this.salary=salary;
+
+	}
+	void display()
+	{
+		System.out.println("Employee Name "+ this.name + " Employee id " + this.empid + " Employee salary "+ this.salary );
+	}
+}
+public class Day3_6 {
+
+	public static void main(String[] args) {
+		Employee e1= new Employee();
+		e1.display();
+		Employee e2= new Employee("Kalpesh",123,90000);
+		e2.display();
+		
+		
+	}
+
+}

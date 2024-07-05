@@ -1,0 +1,41 @@
+/* Inside the class following are types of methods  1. Constructor 2. Getter 3. setter 4. Facilator(Void display)*/
+
+class Employee 
+{
+	/*Private filed EMployee class*/
+	private String name;
+	private int age;
+	private int empid;
+	private String department;
+	private String Designation;
+	
+	Employee()  // parameterless Constructor
+	{
+		this.name="Ajay";
+		this.age=24;
+		this.empid=838388;
+		this.department="SOFTWARE DEVELOPMENT";
+		this.Designation="Apllication development";
+		
+	}
+	void display() // facilator
+	{
+		System.out.println("Employee Name : " + this.name + " Employee Age : "+ this.age + " Employee id : "+ this.empid + " Employee Department "+this.department + " Employee Designation:"+this.Designation);
+		
+	}
+	
+}
+
+public class Day3_10 {
+
+	public static void main(String[] args) {
+		
+		Employee e1= new Employee();
+		e1.display();
+		//Employee e2= new Employee("Ajay",23,83838,"SDE","SOFTWARE");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Day2_12 
+{
+	public static void main(String[] args) 
+	{
+		int n1,n2,max;
+		n1=Integer.parseInt(args[0]);
+		n2=Integer.parseInt(args[1]);
+		
+		max=Integer.max(n1, n2);
+		
+		System.out.println("Maximum of Two Number is "+max);
+		
+		
+	}
+	
+
+}

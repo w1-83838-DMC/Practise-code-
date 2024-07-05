@@ -1,0 +1,17 @@
+package com.sunbeam;
+
+public class BsTreeMain {
+	public static void main(String[] args) {
+		BsTree bst= new BsTree();
+		
+		bst.addNode(13);
+		bst.addNode(45);
+		bst.addNode(67);
+		bst.addNode(54);
+		bst.preorder();
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,35 @@
+// Sort the Movie Based on you filed
+import java.util.ArrayList;
+class Movie implements Comparable<Movie>
+{
+	int year;
+	String name;
+	int rating;
+	
+	Movie()
+	{
+		
+	}
+	Movie(int year, String name, int rating)
+	{
+		this.year=year;
+		this.name=name;
+		this.rating=rating;
+	}
+	@Override
+	public int compareTo(Movie o) {
+		
+		return 0;
+	}
+}
+
+public class Day13_5 {
+	public static void main(String[] args) 
+	{
+		ArrayList<Movie>a1= new ArrayList<Movie>();
+		a1.add(new Movie(2003,"ABC",4.5));
+		
+		
+	}
+
+}

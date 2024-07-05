@@ -1,0 +1,41 @@
+// 
+import java.io.FileOutputStream;
+import java.util.Scanner;
+public class Day13_9 {
+	
+	static Scanner sc= new Scanner(System.in);
+	
+	static String filename= "File.dat";
+	
+	static void ReadRecord()
+	{
+		
+	}
+	static void WriteRecord()
+	{
+		FileOutputStream fop=null;
+		fop= new FileoutputStream(new File(filename));
+	}
+	
+	static int menulist()
+	{
+		System.out.println("0. Exit 1. Read 2. Write Please Enter your Data ");
+		return sc.nextInt();
+		
+	}
+	public static void main(String[] args) {
+		
+		int choice;
+		while((choice=menulist())!=0)
+		{
+		switch(choice)
+		{
+			case 1: ReadRecord();
+				break;
+			case 2: WriteRecord();
+				break;
+			}
+		}
+	}
+
+}

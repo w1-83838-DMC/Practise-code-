@@ -1,0 +1,36 @@
+/* Parameterless Constructor call*/
+class Person
+{
+	String name;
+	int age;
+	
+	Person()
+	{
+		super();
+		this.name="Ajay";
+		this.age=19;
+	}
+}
+class Employee extends Person
+{
+	int employee;
+	int salary;
+	
+	Employee() // parameterless Constructor
+	{
+		super();
+		this.employee=134;
+		this.salary=89000;
+		
+	}
+	public String toString()
+	{
+		super();
+		return "Employee " + this.employee + "Salary "+ this.salary
+	}
+	
+}
+
+public class Day8_4 {
+
+}

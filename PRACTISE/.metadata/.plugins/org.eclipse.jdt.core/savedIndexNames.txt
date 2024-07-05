@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+/home/ajay/Desktop/PRACTISE/.metadata/.plugins/org.eclipse.jdt.core
+2263816374.index
+1580125554.index
+1865797976.index
+646308851.index
+3075303495.index
+3226097873.index
+776223229.index

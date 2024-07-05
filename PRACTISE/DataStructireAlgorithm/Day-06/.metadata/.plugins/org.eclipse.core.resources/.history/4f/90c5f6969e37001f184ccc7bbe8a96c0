@@ -1,0 +1,11 @@
+package com.sunbeam;
+
+public class PriorityQueue {
+	private Heap h;
+	private final int SIZE;
+	public PriorityQueue(int size)
+	{
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Movie {
+	private String moviename;
+	private String Type;
+	private int releasedate;
+	private String Theaterlocation;
+	private int rating;
+	private String productionhouse;
+	
+
+}

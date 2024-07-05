@@ -1,0 +1,83 @@
+import java.util.Comparator;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+
+class Movie implements Comparator<Movie>
+{
+	private int year;
+	private String name;
+	double rating;
+	
+	
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getRating() {
+		return rating;
+	}
+
+	public void setRating(double rating) {
+		this.rating = rating;
+	}
+
+	public Movie() {
+		super();
+		
+	}
+	
+	public Movie(int year, String name, double rating) {
+		super();
+		this.year = year;
+		this.name = name;
+		this.rating = rating;
+	}
+	
+	public String toString() {
+		return "Movie [year=" + year + ", name=" + name + ", rating=" + rating + "]";
+	}
+
+	@Override
+	public int compare(Movie o1, Movie o2) {
+		// TODO Auto-generated method stub
+		return 0;
+	}	
+}
+class Namingcompare implements Comparator<Movie>;
+{
+	
+}
+
+public class Day13_6 {
+	public static void main(String[] args) {
+		ArrayList<Movie> al= new ArrayList<Movie>();
+		al.add(new Movie(2008,"Ramakant",2.3));
+		al.add(new Movie(2001,"Ajay",9.0));
+		al.add(new Movie(2007,"Susre",8.6));
+		
+		System.out.println("Before sort");
+		for(Movie i: al)
+		{
+			System.out.println(i+"\t");
+		}
+		
+		Namingcompare nobj= new Namingcompare();
+		Collections.sort(al,nobj)
+		
+	}
+	
+
+}

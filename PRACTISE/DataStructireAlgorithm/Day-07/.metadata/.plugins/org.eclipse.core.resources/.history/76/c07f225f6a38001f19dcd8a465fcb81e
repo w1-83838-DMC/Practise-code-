@@ -1,0 +1,15 @@
+package com.sunbeam;
+
+public class DoublyLinearLinkedMain {
+	static class Node{
+		private int data;
+		private Node next;
+		private Node prev;
+		public Node(int value)
+		{
+			
+		}
+	}
+	
+
+}

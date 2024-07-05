@@ -1,0 +1,17 @@
+#!bin/bash
+
+echo -n "Accpct the Name : "
+read name
+
+if [ -e $name ]
+then
+	echo" it is a file "
+	stack $name
+elif [ -d $name ]
+	
+	echo "it is a directory " 
+	ls -$name
+fi
+
+
+

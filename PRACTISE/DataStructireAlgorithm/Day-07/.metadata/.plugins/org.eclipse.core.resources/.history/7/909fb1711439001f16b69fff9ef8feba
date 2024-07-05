@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+public class List {
+	static class Node{
+		private int data;
+		private Node next;
+		private Node prev;
+		
+		public Node(int value)
+		{
+			data=value;
+		}
+	}
+	private Node =head;
+
+}

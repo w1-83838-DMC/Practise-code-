@@ -1,0 +1,18 @@
+
+interface square
+{
+	public int getArea(int val);
+}
+interface Rectange
+{
+	public int cal(int l, int n);
+}
+public class Test {
+	public static void main(String[] args)
+	{
+		square sq= ->{return side*side;}};
+		// sp is a reference varaible of functional interface type
+		
+	}
+
+}

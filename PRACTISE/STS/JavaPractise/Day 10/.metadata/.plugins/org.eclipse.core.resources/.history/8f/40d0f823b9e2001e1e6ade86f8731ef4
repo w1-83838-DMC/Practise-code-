@@ -1,0 +1,15 @@
+package p1;
+
+// abstract class can not be instantiated
+// we can not create the object of abstract class
+// but we can create Reference of abstract class
+
+
+
+public class Day10_2 {
+	public static void main(String[] args) {
+		shape sp = new Circle(5,10,20);
+		
+	}
+
+}

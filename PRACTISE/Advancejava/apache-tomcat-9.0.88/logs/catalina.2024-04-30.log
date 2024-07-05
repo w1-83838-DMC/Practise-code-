@@ -1,0 +1,1108 @@
+30-Apr-2024 07:33:37.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 07:33:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 07:33:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 07:33:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 07:33:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 07:33:37.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 07:33:37.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 07:33:37.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 07:33:37.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 07:33:37.083 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 07:33:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 07:33:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 07:33:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 07:33:37.086 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 07:33:37.337 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 07:33:37.357 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [415] milliseconds
+30-Apr-2024 07:33:37.404 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 07:33:37.404 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 07:33:37.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 07:33:37.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [179] ms
+30-Apr-2024 07:33:37.591 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 07:33:37.611 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [20] ms
+30-Apr-2024 07:33:37.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 07:33:37.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [160] ms
+30-Apr-2024 07:33:37.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 07:33:37.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [25] ms
+30-Apr-2024 07:33:37.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 07:33:37.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [24] ms
+30-Apr-2024 07:33:37.822 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 07:33:37.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [50] ms
+30-Apr-2024 07:33:37.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 07:33:37.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [24] ms
+30-Apr-2024 07:33:37.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 07:33:38.127 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 07:33:38.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [240] ms
+30-Apr-2024 07:33:38.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 07:33:38.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+30-Apr-2024 07:33:38.160 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 07:33:38.172 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [813] milliseconds
+30-Apr-2024 07:43:21.127 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 07:43:21.127 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 07:43:21.128 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 07:43:21.145 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 07:43:21.146 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 07:43:21.152 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 07:43:21.162 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:14:34.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 15:14:34.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 15:14:34.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 15:14:34.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 15:14:34.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 15:14:34.255 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 15:14:34.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 15:14:34.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 15:14:34.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 15:14:34.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 15:14:34.257 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 15:14:34.259 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 15:14:34.634 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:14:34.659 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [591] milliseconds
+30-Apr-2024 15:14:34.717 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 15:14:34.718 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 15:14:34.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 15:14:34.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [265] ms
+30-Apr-2024 15:14:34.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 15:14:35.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [24] ms
+30-Apr-2024 15:14:35.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 15:14:35.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [235] ms
+30-Apr-2024 15:14:35.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 15:14:35.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [26] ms
+30-Apr-2024 15:14:35.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 15:14:35.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [22] ms
+30-Apr-2024 15:14:35.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 15:14:35.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [23] ms
+30-Apr-2024 15:14:35.327 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 15:14:35.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [24] ms
+30-Apr-2024 15:14:35.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 15:14:35.668 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 15:14:35.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [334] ms
+30-Apr-2024 15:14:35.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 15:14:35.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [18] ms
+30-Apr-2024 15:14:35.710 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:14:35.723 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1062] milliseconds
+30-Apr-2024 15:15:05.730 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 15:15:05.731 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 15:15:06.003 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 15:15:06.018 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 15:18:46.074 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 15:18:46.074 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 15:18:46.081 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 15:18:46.082 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:18:46.290 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 15:18:46.296 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 15:18:50.824 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:20:36.326 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 15:20:36.326 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 15:20:36.332 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 15:20:36.333 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:20:36.523 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 15:20:36.528 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 15:20:37.182 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:22:46.559 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 15:22:46.559 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 15:22:46.564 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 15:22:46.565 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:22:46.731 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 15:22:46.736 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 15:22:50.374 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:23:16.743 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 15:23:16.743 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 15:23:16.904 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 15:23:16.909 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 15:25:12.865 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 15:25:12.866 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:25:12.867 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 15:25:12.877 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 15:25:12.878 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 15:25:12.887 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 15:25:12.891 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:12:48.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 17:12:48.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 17:12:48.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 17:12:48.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 17:12:48.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 17:12:48.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 17:12:48.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 17:12:48.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 17:12:48.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 17:12:48.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:12:48.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:12:48.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 17:12:48.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 17:12:48.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 17:12:48.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 17:12:48.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 17:12:48.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:12:48.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:12:48.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 17:12:48.057 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 17:12:48.400 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:12:48.425 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [554] milliseconds
+30-Apr-2024 17:12:48.471 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 17:12:48.471 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 17:12:48.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 17:12:48.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [208] ms
+30-Apr-2024 17:12:48.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 17:12:48.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [21] ms
+30-Apr-2024 17:12:48.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 17:12:48.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [193] ms
+30-Apr-2024 17:12:48.902 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 17:12:48.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [26] ms
+30-Apr-2024 17:12:48.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 17:12:48.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [26] ms
+30-Apr-2024 17:12:48.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 17:12:48.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [26] ms
+30-Apr-2024 17:12:48.983 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 17:12:49.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [22] ms
+30-Apr-2024 17:12:49.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 17:12:49.288 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:12:49.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [300] ms
+30-Apr-2024 17:12:49.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 17:12:49.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+30-Apr-2024 17:12:49.325 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:12:49.334 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [908] milliseconds
+30-Apr-2024 17:13:59.355 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:13:59.357 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:13:59.625 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:13:59.632 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:17:49.683 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:17:49.684 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:17:49.689 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 17:17:49.690 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 17:17:49.907 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:17:49.913 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:17:50.324 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 17:18:49.927 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:18:49.927 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:18:49.933 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 17:18:49.933 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 17:18:50.137 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:18:50.143 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:18:50.395 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 17:19:20.149 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:19:20.149 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:19:20.324 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:19:20.329 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:19:40.332 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:19:40.332 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:19:40.551 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:19:40.555 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:49:50.846 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:49:50.846 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:49:51.023 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:49:51.025 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:50:31.032 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:50:31.032 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:50:31.207 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:50:31.211 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:50:34.859 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 17:50:34.859 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:50:34.861 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 17:50:34.879 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:50:34.884 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:50:58.040 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 17:50:58.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:50:58.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:50:58.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 17:50:58.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 17:50:58.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 17:50:58.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 17:50:58.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 17:50:58.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:50:58.062 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 17:50:58.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 17:50:58.065 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 17:50:58.351 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:50:58.376 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [481] milliseconds
+30-Apr-2024 17:50:58.434 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 17:50:58.434 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 17:50:58.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 17:50:58.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [289] ms
+30-Apr-2024 17:50:58.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 17:50:58.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [21] ms
+30-Apr-2024 17:50:58.755 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 17:50:58.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [164] ms
+30-Apr-2024 17:50:58.919 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 17:50:58.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [23] ms
+30-Apr-2024 17:50:58.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 17:50:58.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [22] ms
+30-Apr-2024 17:50:58.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 17:50:58.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [23] ms
+30-Apr-2024 17:50:58.989 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 17:50:59.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [24] ms
+30-Apr-2024 17:50:59.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 17:50:59.253 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:50:59.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [250] ms
+30-Apr-2024 17:50:59.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 17:50:59.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [18] ms
+30-Apr-2024 17:50:59.287 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 17:50:59.302 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [925] milliseconds
+30-Apr-2024 17:51:19.297 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:51:19.299 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:51:19.537 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:51:19.546 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:53:39.580 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:53:39.580 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:53:39.804 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:53:39.819 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:57:09.868 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:57:09.869 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:57:10.075 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:57:10.078 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:58:40.098 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:58:40.098 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:58:40.297 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:58:40.302 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:59:10.307 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:59:10.307 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:59:10.512 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:59:10.516 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 17:59:50.524 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 17:59:50.524 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 17:59:50.675 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 17:59:50.678 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:00:10.681 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:00:10.681 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:00:10.817 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:00:10.820 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:00:40.825 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:00:40.825 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:00:40.962 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:00:40.964 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:09:01.043 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:09:01.043 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:09:01.204 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:09:01.207 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:10:11.221 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:10:11.221 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:10:11.376 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:10:11.381 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:10:51.389 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:10:51.389 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:10:51.548 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:10:51.552 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:12:41.574 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:12:41.574 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:12:41.726 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:12:41.730 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:16:41.772 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:16:41.772 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:16:41.778 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:16:41.779 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:41.871 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:41.872 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:16:41.954 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:16:41.958 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:20:08.373 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:20:08.373 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:20:08.374 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:20:08.383 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:20:08.383 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:20:08.391 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:20:08.398 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:20:09.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:20:09.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:20:09.626 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:20:09.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:20:09.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:20:09.639 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:20:09.859 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:20:09.878 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [369] milliseconds
+30-Apr-2024 18:20:09.926 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:20:09.926 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:20:09.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:20:10.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [194] ms
+30-Apr-2024 18:20:10.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:20:10.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [18] ms
+30-Apr-2024 18:20:10.145 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:20:10.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [122] ms
+30-Apr-2024 18:20:10.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:20:10.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [21] ms
+30-Apr-2024 18:20:10.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:20:10.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [21] ms
+30-Apr-2024 18:20:10.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:20:10.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [20] ms
+30-Apr-2024 18:20:10.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:20:10.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [20] ms
+30-Apr-2024 18:20:10.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:20:10.554 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:20:10.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [219] ms
+30-Apr-2024 18:20:10.572 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:20:10.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [18] ms
+30-Apr-2024 18:20:10.595 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:20:10.602 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [723] milliseconds
+30-Apr-2024 18:22:24.149 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:22:24.149 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:24.151 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:22:24.196 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:22:24.202 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:22:24.229 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:24.243 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:27.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:22:27.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:27.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:27.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:22:27.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:22:27.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:22:27.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:22:27.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:22:27.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:27.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:27.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:22:27.317 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:22:27.560 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:27.577 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [416] milliseconds
+30-Apr-2024 18:22:27.622 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:22:27.623 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:22:27.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:22:27.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [206] ms
+30-Apr-2024 18:22:27.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:22:27.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [13] ms
+30-Apr-2024 18:22:27.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:22:27.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [113] ms
+30-Apr-2024 18:22:27.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:22:27.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [17] ms
+30-Apr-2024 18:22:27.982 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:22:28.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [17] ms
+30-Apr-2024 18:22:28.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:22:28.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [20] ms
+30-Apr-2024 18:22:28.020 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:22:28.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [18] ms
+30-Apr-2024 18:22:28.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:22:28.250 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:22:28.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [227] ms
+30-Apr-2024 18:22:28.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:22:28.281 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [15] ms
+30-Apr-2024 18:22:28.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:28.307 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [729] milliseconds
+30-Apr-2024 18:22:42.040 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:22:42.041 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:42.043 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:22:42.075 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:22:42.079 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:22:42.101 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:42.147 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:43.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:22:43.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:22:43.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:22:43.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:22:43.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:22:43.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:22:43.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:22:43.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:22:43.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:22:43.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:43.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:43.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:22:43.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:22:43.311 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:22:43.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:43.623 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [478] milliseconds
+30-Apr-2024 18:22:43.678 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:22:43.679 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:22:43.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:22:43.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [285] ms
+30-Apr-2024 18:22:43.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:22:43.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [24] ms
+30-Apr-2024 18:22:43.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:22:44.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [180] ms
+30-Apr-2024 18:22:44.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:22:44.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [21] ms
+30-Apr-2024 18:22:44.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:22:44.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [22] ms
+30-Apr-2024 18:22:44.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:22:44.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [21] ms
+30-Apr-2024 18:22:44.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:22:44.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [23] ms
+30-Apr-2024 18:22:44.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:22:44.572 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:22:44.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [331] ms
+30-Apr-2024 18:22:44.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:22:44.612 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+30-Apr-2024 18:22:44.620 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:22:44.627 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1002] milliseconds
+30-Apr-2024 18:23:04.626 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:23:04.629 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:23:04.645 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:23:04.647 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:23:04.811 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:23:04.816 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:23:05.992 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:23:27.869 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:23:27.869 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:23:27.872 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:23:27.911 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:23:27.919 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:23:30.573 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:23:30.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:23:30.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:23:30.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:23:30.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:23:30.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:23:30.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:23:30.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:23:30.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:23:30.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:23:30.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:23:30.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:23:30.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:23:30.590 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:23:30.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:23:30.923 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [538] milliseconds
+30-Apr-2024 18:23:30.985 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:23:30.985 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:23:30.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:23:31.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [245] ms
+30-Apr-2024 18:23:31.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:23:31.258 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [21] ms
+30-Apr-2024 18:23:31.259 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:23:31.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [190] ms
+30-Apr-2024 18:23:31.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:23:31.474 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [24] ms
+30-Apr-2024 18:23:31.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:23:31.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [20] ms
+30-Apr-2024 18:23:31.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:23:31.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [22] ms
+30-Apr-2024 18:23:31.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:23:31.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [21] ms
+30-Apr-2024 18:23:31.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:23:31.817 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:23:31.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [294] ms
+30-Apr-2024 18:23:31.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:23:31.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [16] ms
+30-Apr-2024 18:23:31.861 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:23:31.880 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [955] milliseconds
+30-Apr-2024 18:23:41.875 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:23:41.876 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:23:42.055 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:23:42.061 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:28:33.041 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:28:33.042 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:33.043 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:28:33.083 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:28:33.085 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:28:33.103 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:33.133 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:33.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:28:33.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:28:33.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:28:33.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:28:33.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:28:33.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:28:33.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:28:33.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:28:33.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:28:33.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:33.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:28:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:28:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:28:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:28:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:28:33.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:33.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:33.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:28:33.659 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:28:33.976 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:34.015 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [569] milliseconds
+30-Apr-2024 18:28:34.074 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:28:34.074 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:28:34.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:28:34.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [295] ms
+30-Apr-2024 18:28:34.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:28:34.396 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [19] ms
+30-Apr-2024 18:28:34.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:28:34.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [184] ms
+30-Apr-2024 18:28:34.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:28:34.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [32] ms
+30-Apr-2024 18:28:34.614 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:28:34.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [29] ms
+30-Apr-2024 18:28:34.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:28:34.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [24] ms
+30-Apr-2024 18:28:34.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:28:34.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [20] ms
+30-Apr-2024 18:28:34.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:28:35.043 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact [localhost:8005] (base port [8005] and offset [0]). Tomcat may not be running.
+30-Apr-2024 18:28:35.104 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:28:35.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [440] ms
+30-Apr-2024 18:28:35.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:28:35.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [15] ms
+30-Apr-2024 18:28:35.146 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:35.168 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1152] milliseconds
+30-Apr-2024 18:28:37.629 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:28:37.630 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:37.633 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:28:37.673 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:37.682 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:38.943 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:28:38.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:28:38.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:38.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:38.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:28:38.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:28:38.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:28:38.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:28:38.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:28:38.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:38.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:28:38.957 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:28:38.958 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:28:39.192 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:39.206 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [376] milliseconds
+30-Apr-2024 18:28:39.244 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:28:39.244 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:28:39.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:28:39.429 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [178] ms
+30-Apr-2024 18:28:39.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:28:39.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [17] ms
+30-Apr-2024 18:28:39.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:28:39.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [180] ms
+30-Apr-2024 18:28:39.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:28:39.645 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [19] ms
+30-Apr-2024 18:28:39.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:28:39.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [17] ms
+30-Apr-2024 18:28:39.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:28:39.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [16] ms
+30-Apr-2024 18:28:39.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:28:39.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [17] ms
+30-Apr-2024 18:28:39.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:28:39.878 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:28:39.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [195] ms
+30-Apr-2024 18:28:39.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:28:39.906 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+30-Apr-2024 18:28:39.911 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:28:39.921 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [714] milliseconds
+30-Apr-2024 18:34:04.495 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:34:04.495 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:34:04.496 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:34:04.581 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:34:04.582 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:34:04.628 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:34:04.641 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:34:06.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:34:06.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:34:06.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:34:06.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:34:06.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:34:06.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:34:06.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:34:06.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:34:06.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:34:06.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:34:06.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:34:06.126 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:34:06.130 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:34:06.488 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:34:06.511 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [601] milliseconds
+30-Apr-2024 18:34:06.594 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:34:06.594 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:34:06.607 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:34:06.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [356] ms
+30-Apr-2024 18:34:06.964 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:34:06.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [26] ms
+30-Apr-2024 18:34:06.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:34:07.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [230] ms
+30-Apr-2024 18:34:07.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:34:07.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [31] ms
+30-Apr-2024 18:34:07.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:34:07.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [34] ms
+30-Apr-2024 18:34:07.287 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:34:07.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [24] ms
+30-Apr-2024 18:34:07.312 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:34:07.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [30] ms
+30-Apr-2024 18:34:07.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:34:07.637 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:34:07.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [300] ms
+30-Apr-2024 18:34:07.657 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:34:07.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [18] ms
+30-Apr-2024 18:34:07.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:34:07.696 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1184] milliseconds
+30-Apr-2024 18:34:17.693 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:34:17.694 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:34:17.916 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:34:17.923 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:34:27.929 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:34:27.930 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:34:28.099 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:34:28.104 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:35:29.798 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:35:29.798 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:35:29.799 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:35:29.822 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:35:29.824 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:29.843 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:35:29.863 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:35:31.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:35:31.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:35:31.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 18:35:31.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 18:35:31.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 18:35:31.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 18:35:31.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 18:35:31.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:35:31.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 18:35:31.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 18:35:31.792 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 18:35:32.101 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:35:32.125 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [559] milliseconds
+30-Apr-2024 18:35:32.201 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 18:35:32.202 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 18:35:32.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 18:35:32.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [397] ms
+30-Apr-2024 18:35:32.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 18:35:32.637 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [27] ms
+30-Apr-2024 18:35:32.638 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 18:35:32.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [182] ms
+30-Apr-2024 18:35:32.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 18:35:32.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [26] ms
+30-Apr-2024 18:35:32.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 18:35:32.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [26] ms
+30-Apr-2024 18:35:32.874 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 18:35:32.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [25] ms
+30-Apr-2024 18:35:32.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 18:35:32.924 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [24] ms
+30-Apr-2024 18:35:32.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 18:35:33.234 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:35:33.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [325] ms
+30-Apr-2024 18:35:33.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 18:35:33.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [14] ms
+30-Apr-2024 18:35:33.280 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:35:33.289 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1162] milliseconds
+30-Apr-2024 18:35:43.286 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:35:43.288 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:35:43.490 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:35:43.496 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:35:53.501 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/blogsjsp]
+30-Apr-2024 18:35:53.501 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] has started
+30-Apr-2024 18:35:53.507 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:35:53.508 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.589 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.590 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.590 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.590 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.590 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.590 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.590 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.591 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.591 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.591 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.591 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.591 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.591 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1349)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:981)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:125)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:92)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:35:53.669 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 18:35:53.674 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/blogsjsp] is completed
+30-Apr-2024 18:40:52.781 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 18:40:52.782 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:40:52.782 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 18:40:52.790 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 18:40:52.790 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 18:40:52.797 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 18:40:52.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 21:33:58.323 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.88
+30-Apr-2024 21:33:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 9 2024 13:22:30 UTC
+30-Apr-2024 21:33:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.88.0
+30-Apr-2024 21:33:58.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.5.0-28-generic
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.22+7-post-Ubuntu-0ubuntu222.04.1
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 21:33:58.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 21:33:58.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/conf/logging.properties
+30-Apr-2024 21:33:58.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+30-Apr-2024 21:33:58.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+30-Apr-2024 21:33:58.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+30-Apr-2024 21:33:58.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+30-Apr-2024 21:33:58.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 21:33:58.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88
+30-Apr-2024 21:33:58.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/temp
+30-Apr-2024 21:33:58.339 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+30-Apr-2024 21:33:58.630 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 21:33:58.653 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [480] milliseconds
+30-Apr-2024 21:33:58.722 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+30-Apr-2024 21:33:58.723 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.88]
+30-Apr-2024 21:33:58.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03]
+30-Apr-2024 21:33:58.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo03] has finished in [241] ms
+30-Apr-2024 21:33:58.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs]
+30-Apr-2024 21:33:59.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/docs] has finished in [27] ms
+30-Apr-2024 21:33:59.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples]
+30-Apr-2024 21:33:59.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/examples] has finished in [208] ms
+30-Apr-2024 21:33:59.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04]
+30-Apr-2024 21:33:59.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo04] has finished in [31] ms
+30-Apr-2024 21:33:59.247 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager]
+30-Apr-2024 21:33:59.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/host-manager] has finished in [28] ms
+30-Apr-2024 21:33:59.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager]
+30-Apr-2024 21:33:59.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/manager] has finished in [29] ms
+30-Apr-2024 21:33:59.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05]
+30-Apr-2024 21:33:59.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/demo05] has finished in [32] ms
+30-Apr-2024 21:33:59.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp]
+30-Apr-2024 21:33:59.645 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+30-Apr-2024 21:33:59.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/blogsjsp] has finished in [327] ms
+30-Apr-2024 21:33:59.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT]
+30-Apr-2024 21:33:59.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/ajay/Desktop/PRACTISE/Advancejava/apache-tomcat-9.0.88/webapps/ROOT] has finished in [15] ms
+30-Apr-2024 21:33:59.684 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 21:33:59.694 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1040] milliseconds
+30-Apr-2024 22:29:36.504 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2024 22:29:36.505 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 22:29:36.506 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2024 22:29:36.521 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [blogsjsp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2024 22:29:36.522 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [blogsjsp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.22/java.lang.Object.wait(Native Method)
+ java.base@11.0.22/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@11.0.22/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.22/java.lang.Thread.run(Thread.java:829)
+30-Apr-2024 22:29:36.529 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+30-Apr-2024 22:29:36.540 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

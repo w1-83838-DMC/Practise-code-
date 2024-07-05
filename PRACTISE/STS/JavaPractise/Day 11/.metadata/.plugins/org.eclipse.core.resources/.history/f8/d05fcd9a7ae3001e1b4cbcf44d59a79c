@@ -1,0 +1,38 @@
+// take one input from user using command line argument 
+// if number < 0 throw one exception "NegativeNumberException"
+
+
+class NegativeNumberExceptiofn extends Exception
+{
+	 NegativeNumberException() // Parameterless Constructor called
+	 {
+		 System.out.println("User Defined Exception ");
+		 
+	 }
+	
+}
+
+public class Day11_3 {
+	
+	public static void main(String[] args) {
+		try {
+			int num = Integer.parseInt(args[0]);
+			System.out.println("Number "+num);
+			if(num<0)
+				throw new NegativeNumberExceptiofn();
+			else
+			{
+			System.out.println("Number "+num);
+			}
+		
+		}catch(NegativeNumberExceptiofn e)
+		{
+			System.out.println("Supplied Number is Negative : ");
+		}
+		
+		
+		
+	}
+	
+
+}

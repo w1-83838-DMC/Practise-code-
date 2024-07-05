@@ -1,0 +1,40 @@
+package com.sunbeam;
+
+public class Heap {
+	private int arr[];
+	private int SIZE;
+	public Heap(int size)
+	{
+		SIZE=0;
+		arr=new int[size+1];
+	}
+	public void addHeap(int value)
+	{
+		// increase size of heap by 1
+		 SIZE++;
+		 // add value at first empty index 
+		 arr[SIZE]=value;
+		 // adjust position of newly added value by comparing it with all its acestors
+		 int ci=SIZE; // child
+		 int pi=ci/2; // parent 
+		 while(pi>=1) {
+			// if child is already less than parent 
+			 if(arr[ci]<arr[pi])
+				 break;
+			 //if child is greater than parent then swap both parent and child 
+			 int temp=arr[ci];
+			 arr[ci]=arr[pi];
+			 arr[pi]=temp;
+			 // update parent and child index
+			 ci=pi;
+			 pi=ci/2;
+			 
+		 }
+	}
+	public int deleteHeap()
+	{
+	
+	}
+	
+
+}

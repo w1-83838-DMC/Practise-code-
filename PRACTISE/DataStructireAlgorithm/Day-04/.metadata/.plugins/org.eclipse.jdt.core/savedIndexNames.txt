@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+/home/ajay/Desktop/PRACTISE/DataStructireAlgorithm/Day-04/.metadata/.plugins/org.eclipse.jdt.core
+2426823342.index
+2403793564.index
+1865797976.index
+29009284.index
+509715350.index

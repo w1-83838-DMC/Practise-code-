@@ -1,0 +1,26 @@
+
+public class Demo {
+	
+	int n1;
+	Demo()
+	{
+	}
+	Demo(int n1)
+	{
+		this.n1=n1;	
+	}
+	// ToString
+	public String toString()
+	{
+		return "Demo[n1= "+ n1 +"]";
+	}
+	// hashcode
+	public int hascode()
+	{
+		return Objects.hash(n1);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}

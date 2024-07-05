@@ -1,0 +1,17 @@
+import java.util.Vector;
+public class Day12_6 {
+	
+	public static void main(String[] args) 
+	{
+		Vector<Integer> v1= new Vector<Integer>();  // Intial 10 size capacity
+		// Constructs an Empty vector
+		// so that its Internal data array has 10 size 
+		System.out.println("Size = "+v1.size() + " Capacity = "+ v1.capacity());
+		v1.addElement(10);
+		v1.addElement(20);
+		v1.addElement(30);
+		v1.addElement(40);
+		System.out.println(v1+ "\t");
+	}
+
+}

@@ -1,0 +1,72 @@
+package com.sunbeam;
+
+import java.util.Stack;
+
+public class ExpressionConversionMain {
+	
+	public static int priority(char opr)
+	{
+		switch(opr) {
+			case '$': return 10;
+			case '/': return 9;
+			case '*': return 9;
+			case '%': return 9;
+			case '+': return 8;
+			case '-': return 8;
+		}
+		return 0;
+		
+	}
+	public static String infixToPostfix(String infix)
+	{
+		//0. create stack to push operators 
+		Stack<Character>st= new Stack<Character>();
+		// 0. create String to store expressions 
+		StringBuilder postfix= new StringBuilder();
+		// 1. check infix expression from left to right 
+		for(int i=0; i<infix.length(); i++)
+		{
+			// 2. extract character from ith index from infix expression 
+			char ele= infix.charAt(i);
+			
+			//3. check if element is operand 
+			if(Character.isDigit(ele))
+				postfix.append(ele);
+			//4. check if element is openning bracket 
+			else if(ele=='(')
+				st.push(ele);
+			// 5. check if element is closing bracket 
+			else if (ele==')'){
+				while(st.peek() != '(')
+					postfix.append(st.pop());
+				st.pop();
+			}
+			// 6. check if element is operator
+			else 
+			{
+				// 6.1 check priority of topmost element of stack with current element 
+					while(priority(st.peek())>=priority(ele))
+					{
+						postfix.append(st.pop());
+						
+						// 6.2 push current operator into stack 
+						st.push(ele);
+					}
+			}				
+		}
+		// 7. pop remainning elements of stack one by one and append it into expression 
+		while(!st.isEmpty())
+		{
+			postfix.append(st.pop());
+			
+		}
+		return postfix.toString();
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

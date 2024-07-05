@@ -1,0 +1,12 @@
+package com.sunbeaminfo.tester;
+
+import com.sunbeaminfo.products.*;
+public class product {
+	public static void main(String[] args) {
+		Mobile mb=new Mobile();
+		mb.display();
+		
+		
+	}
+
+}

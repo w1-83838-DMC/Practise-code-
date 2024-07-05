@@ -1,0 +1,17 @@
+package com.sunbeam;
+
+public class BStree {
+	static class Node{
+		private int data;
+		private Node left;
+		private Node right;
+		
+		public Node(int value)
+		{
+			data=value;
+		}
+	}
+	Node trav=root;
+	
+
+}

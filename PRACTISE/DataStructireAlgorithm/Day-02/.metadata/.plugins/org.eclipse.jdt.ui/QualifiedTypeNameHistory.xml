@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sunbeam.Queue"/>
+    <fullyQualifiedTypeName name="javax.management.Query"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="circularQueue.CircularQueue"/>
+    <fullyQualifiedTypeName name="com.sunbeam.Stack"/>
+    <fullyQualifiedTypeName name="com.sunbeam.StackMain"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.imageio.plugins.tiff.ExifGPSTagSet"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

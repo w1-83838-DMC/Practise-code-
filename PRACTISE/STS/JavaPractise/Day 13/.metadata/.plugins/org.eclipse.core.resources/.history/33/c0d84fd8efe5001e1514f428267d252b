@@ -1,0 +1,49 @@
+// Sort the Movie Year  Based on your filed
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+class Movie implements Comparable<Movie>
+{
+	String name;
+	double ratting;
+	int year;
+	
+	public Movie() {
+		super();
+		
+	}
+	
+	
+	
+	
+	
+	
+
+
+	
+}
+
+public class Day13_5 {
+	public static void main(String[] args) 
+	{
+		ArrayList<Movie>a1= new ArrayList<Movie>();
+		a1.add(new Movie());
+		a1.add(new Movie());
+		a1.add(new Movie());
+		
+		System.out.println("Before Sorting of fileds : ");
+		for(Movie i:a1)
+		{
+			System.out.println(i +"\t");
+		}
+		System.out.println("After Sirting of fileds : ");
+		Collections.sort(a1);
+		for(Movie i:a1)
+		{
+			System.out.println(i + "\t");
+		}
+		
+		
+	}
+
+}

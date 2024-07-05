@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Day14_2 {
+	
+	Scanner sc= new Scanner(System.in);
+	String fname="Demo.dat";
+	
+	static int menuchoice()
+	{
+		System.out.println("0. Exit 1.WriteData 2. ReadData : ");
+		return sc.nextInt();
+	}
+	public static void main(String[] args) {
+		int choice;
+		while(choice=menuchoice()!=0)
+		
+	}
+
+}

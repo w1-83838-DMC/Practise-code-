@@ -1,0 +1,46 @@
+// Method reference 
+// 1. Method reference to an instance method of an object
+@FunctionalInterface
+interface test
+{
+	void disp();
+	
+}
+class Demo
+{
+	int num1;
+	int num2;
+	Demo() // parameterless Constructor
+	{
+	
+	}
+	
+	Demo(int num1, int num2)
+	{
+		this.num1= 55; 
+		this.num2= 44;
+	}
+	void m1()
+	{
+		System.out.println("Num1 is "+ num1 + "Num2 is "+ num2);
+	}
+	void m2()
+	{
+		System.out.println("inside method m2");
+	}
+	void m3()
+	{
+		System.out.println("Sunbeam DMC");
+		System.out.println("Sunbeam DAC");
+	}
+}
+public class Day15_6 {
+	public static void main(String[] args) 
+	{
+		Demo dob = new Demo();
+		test tref= dob :: m1();
+	
+		
+	}
+
+}

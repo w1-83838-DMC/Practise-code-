@@ -1,0 +1,80 @@
+package com.sunbeam;
+
+public class List {
+	
+	static class Node{
+		private int data;
+		private Node next;
+		public Node(int value) // constructor 
+		{
+			data=value;
+			next=null;
+		}
+	}
+	private Node head;
+	public List()
+	{
+		head=null;
+	}
+	public boolean isEmpty()
+	{
+		return head==null;
+	}
+	public void addfirst(int value)
+	{
+		// 0. Create node for given data 
+		Node newnode= new Node(value);
+		// 1. add first node into next of newnode 
+		newnode.next=head;
+		// 2. move head on newnode 
+		head=newnode;
+	}
+	
+	public void display()
+	{
+		// create trav and start at first node 
+		Node trav=head;
+		System.out.print("List : : ");
+		while(trav!=null)
+		{
+			//2 print/visit current node(trav.data)
+			System.out.print(" "+ trav.data);
+			//3. go to next node(trav.next)
+			trav = trav.next;
+		}// 4. repat step 2 and 3 till last node 
+		System.out.print(" ");
+	}
+	
+	public void addLast(int value)
+	{
+		// 1. create node for given data 
+		Node newnode= new Node(value);
+		// 2. if list is Empty 
+		if(isEmpty())
+		{
+			head= newnode;
+		}else  // 3. if List is not empty  
+		{
+			// traverse till last node
+			Node trav=head;
+			while(trav.next!=null)
+			{
+				trav=trav.next;
+			}
+				// add newnode into next of last node 
+			trav.next=newnode;
+		}	
+	}
+	public void DeleteFirst()
+	{
+		// 1. if list is empty 
+		if(isEmpty())
+			return;
+		// 2. if list is not empty 
+		else 
+			// a. move head on second node
+			head= head.next;
+	}
+	
+	
+}
